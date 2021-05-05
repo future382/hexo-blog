@@ -1,0 +1,80 @@
+# 基本信息
+
+# ---------------------------------------------------------------
+# 侧边栏、Header的头像
+# ---------------------------------------------------------------
+
+favicon: /assets/images/favicon.png
+avatar: /assets/images/logo@2x.png
+
+
+# ---------------------------------------------------------------
+# 顶部Nav
+# ---------------------------------------------------------------
+
+page:
+  - name: Home
+    link: /
+
+  - name: 关于
+    link: /about/
+  
+  - name: 友链
+    link: /links/
+
+# Darkmode按钮，如果是部署在子目录的童鞋(例如http://1.2.com/blog ……这类网址)的，请保持False.
+# 我推荐您使用文件放在子目录，然后CNAME的方式，这样也便于您以后的网站架设（这样是可以采用黑暗模式True的）
+# 当然，我更推荐您使用Vercel＋Hexo框架部署的方式，比GitHub更快，响应速度更高，也更容易被国内搜索引擎收录，还可以使用黑暗模式(~~最重要的是免费~~)。
+# 您可以直接Fork[我博客仓库的内容](https://github.com/adkinsmpage/hexo-blog)
+
+darkmodep: false
+# darkmodep: true
+
+# ---------------------------------------------------------------
+# 联系方式
+# ---------------------------------------------------------------
+
+# 只填写用户名即可
+twitter: 
+rss: #一般写 /atom.xml
+weibo: 
+instagram: 
+github: adkinsm2020
+facebook: 
+
+
+# ---------------------------------------------------------------
+# 评论
+# ---------------------------------------------------------------
+
+duoshuo: #shortname
+disqus: #ShortName
+gentie: #productKey
+# Valine comments https://valine.js.org
+valine:
+  enable: false # if you want use valine, please set enable: true
+  appid:  # your leancloud appid
+  appkey:  # your leancloud appkey
+  notify: false # true/false:mail notify !!!Test,Caution. https://github.com/xCss/Valine/wiki/Valine-%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F%E4%B8%AD%E7%9A%84%E9%82%AE%E4%BB%B6%E6%8F%90%E9%86%92%E8%AE%BE%E7%BD%AE
+  verify: false # true/false:verify code
+  avatar: mm # avatar style https://github.com/xCss/Valine/wiki/avatar-setting-for-valine
+  placeholder: Just go go # comment box placeholder
+
+
+#---------------------------
+# 友链
+#---------------------------
+
+links:
+    - {
+      title: 'Adkinsm Home',
+      intro: 'Adkinsm 主页',
+      link: 'https://www.adkinsm.top/',
+      image: '/assets/images/favicon.png'
+    }
+    - {
+      title: 'Adkinsm BLOG',
+      intro: 'Adkinsm 博客',
+      link: 'https://blog.adkinsm.top/',
+      image: '/assets/images/favicon.png'
+    }

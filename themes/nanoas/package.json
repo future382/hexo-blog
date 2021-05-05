@@ -1,0 +1,21 @@
+{
+  "name": "hexo-theme-NanoAs",
+  "version": "1.5.2",
+  "description": "A Simple Hexo Theme.It Is Very Simple,But Is Very Beautiful Too.",
+  "main": "scripts/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adkinsm2020/hexo-theme-nanoas"
+  },
+  "keywords": [
+    "hexo",
+    "theme",
+    "nanoas"
+  ],
+  "author": "Adkinsm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adkinsm2020/hexo-theme-nanoas/issues"
+  },
+  "homepage": "http://github.com/adkinsm2020/hexo-theme-nanoas#readme"
+}
