@@ -23,10 +23,6 @@ pages:
     link: "/"
   Archive:
     link: "/archives/"
-  Categories:
-    link: "/categories/"
-  Tags:
-    link: "/tags/"
   About:
     link: "/about/"
   Links:
