@@ -33,10 +33,6 @@ pages:
     link: "/"
   Archive:
     link: "/archives/"
-  Categories:
-    link: "/categories/"
-  Tags:
-    link: "/tags/"
   About:
     link: "/about/"
   Links:
@@ -73,11 +69,11 @@ page404:
 #---------------------------
 
 pagetags:
-  enable: true
+  enable: false
 
 #---------------------------
 # Categories
 #---------------------------
 
 pagecate:
-  enable: true
+  enable: false
