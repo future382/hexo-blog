@@ -9,7 +9,7 @@ bgimg: /10_gettyimages-508748776_super_resized.jpg
 bgsat: 500%
 
 # 背景图的模糊度，不模糊请填 0
-bgblu: 20px
+bgblu: 500px
 
 # 用于header、footer的颜色
 hfcolor: '#26689e'
