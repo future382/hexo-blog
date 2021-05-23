@@ -9,7 +9,7 @@ bgimg: /10_gettyimages-508748776_super_resized.jpg
 bgsat: 500%
 
 # 背景图的模糊度，不模糊请填 0
-bgblu: 350px
+bgblu: 20px
 
 # 用于header、footer的颜色
 hfcolor: '#26689e'
@@ -33,6 +33,10 @@ pages:
     link: "/"
   Archive:
     link: "/archives/"
+  Categories:
+    link: "/categories/"
+  Tags:
+    link: "/tags/"
   About:
     link: "/about/"
   Links:
@@ -69,11 +73,20 @@ page404:
 #---------------------------
 
 pagetags:
-  enable: false
+  enable: true
 
 #---------------------------
 # Categories
 #---------------------------
 
 pagecate:
+  enable: true
+
+#---------------------------
+# Comments
+#---------------------------
+
+# 由于我使用Waline，所以我决定最先支持Waline
+waline:
   enable: false
+  serverURL: ''
