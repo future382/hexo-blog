@@ -43,6 +43,15 @@ pages:
     link: "/links/"
 
 #---------------------------
+# Index
+#---------------------------
+
+# 首页文章排序
+  # 默认的"1"代表单行，为白色一行的样式来陈列文章。
+  # 也可以选择"2"，代表大图，蓝色的，抽取头图，适合文章图片较多的人士。(在文章Front-Matter里使用cover属性规定头图)
+indexpp: 2
+
+#---------------------------
 # Links
 #---------------------------
 
@@ -88,5 +97,5 @@ pagecate:
 
 # 由于我使用Waline，所以我决定最先支持Waline
 waline:
-  enable: true
-  serverURL: 'https://talk-blog.vercel.app'
+  enable: false
+  serverURL: ''

@@ -2,7 +2,6 @@
 
 <div id="footer">
     <div id="footer-content" class="clear">
-    
         <div id="footer-content-left">
             <p id="footer-time">© <%= config.title %> | <%- __('btext') %><span id="site_runtime"></span></p>
             <nav id="nav-2">
@@ -10,9 +9,6 @@
                 <a href="<%= theme.pages[i].link %>"><%= i %></a>
                 <% } %>
             </nav>
-            
-<p>本站访客数<span id="busuanzi_value_site_uv"></span>人次</p>
-
         </div>
         
         <div id="footer-content-right">
@@ -23,10 +19,10 @@
 
     </div>
 
+    <%- js('JS/jquery.pjax.min.js') %>
     <%- js('JS/X.js') %>
     <%- js('JS/prism.js') %>
-    <script src="<%- url_for('/JS/toastr.min.js') %>"></script>
-
+    <%- js('JS/nprogress.js') %>
     <script src="<%- url_for('/JS/SmoothScroll.min.js') %>"></script>
     <script>
         window.SmoothScroll({
@@ -41,6 +37,8 @@
 
 <script>
     collapse_toggle();
+	PreFancybox();
+	imageinfo();
     show_site_runtime("<%= theme.buildtime %>");
 </script>
 </body>

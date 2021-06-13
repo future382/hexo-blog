@@ -12,45 +12,91 @@ var mobileHover = function () {
 	});
 };
 
-//夜间模式开关
-function switchNightMode() {
-	var night = document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, "$1") || '0';
-	if (night == '0') {
-		document.querySelector('link[title="dark"]').disabled = true;
-		document.querySelector('link[title="dark"]').disabled = false;
-		document.cookie = "night=1;path=/"
-		Qmsg.info("夜间模式开启", QMSG_GLOBALS.DEFAULTS);
-	} else {
-		document.querySelector('link[title="dark"]').disabled = true;
-		document.cookie = "night=0;path=/"
-		Qmsg.info("夜间模式关闭", QMSG_GLOBALS.DEFAULTS);
+//pjax 刷新
+$(document).pjax('a:not(a[target="_blank"], a[no-pjax])', {
+	container: '#pjax-container',
+	fragment: '#pjax-container',
+	timeout: 8000
+}).on('pjax:send', function () {
+	pjax_send();
+}).on('pjax:complete', function () {
+	pjax_complete();
+}).on('pjax:click', function () {
+	pjax_click();
+});
+
+function pjax_click() {
+	//结束aplayer进程
+	if (typeof aplayers !== 'undefined') {
+		for (var i = 0; i < aplayers.length; i++) {
+			try {
+				aplayers[i].destroy()
+			} catch (e) {}
+		}
 	}
 }
 
-//自动判断夜间模式
-(function () {
-	if (document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, "$1") == '') {
-		if (new Date().getHours() > 22 || new Date().getHours() < 6) {
-			document.querySelector('link[title="dark"]').disabled = true;
-			document.querySelector('link[title="dark"]').disabled = false;
-			document.cookie = "night=1;path=/"
-			Qmsg.info("夜间模式开启", QMSG_GLOBALS.DEFAULTS);
-		} else {
-			document.cookie = "night=0;path=/"
-		}
-	} else {
-		var night = document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, "$1") || '0';
-		if (night == '0') {
-			document.querySelector('link[title="dark"]').disabled = true;
-		} else if (night == '1') {
-			document.querySelector('link[title="dark"]').disabled = true;
-			document.querySelector('link[title="dark"]').disabled = false;
-			Qmsg.info("夜间模式开启", QMSG_GLOBALS.DEFAULTS);
-		}
+function pjax_send() {
+	$("#M").addClass("opacity-disappear");
+	NProgress.start();
+}
+
+function pjax_complete() {
+	//Prism重启
+	if (typeof Prism !== 'undefined') {
+		Prism.highlightAll(true, null);
 	}
-})();
+	//Meting重启
+	var isFunction = false;
+	try {
+		isFunction = typeof (eval('loadMeting')) == "function";
+	} catch (e) {}
+	if (isFunction) {
+		loadMeting();
+	} else {}
 
+	//显示主页面
+	$("#M").addClass("opacity-show");
+	PreFancybox();
+	imageinfo();
+	collapse_toggle();
+	NProgress.done();
+}
 
+function PreFancybox(){
+	$("#post img").each(function(){
+				$(this).wrap(function(){
+					if($(this).is(".bq"))
+					{
+						 return '';
+					}
+					if($(this).is("#feedme-content img"))
+					{
+						return '';
+					}
+				return '<a data-fancybox="gallery" no-pjax data-type="image" href="' + $(this).attr("src") + '" class="light-link"></a>';
+		 });
+	});
+}
+
+function imageinfo(){
+	$("#post img").each(function(){
+				$(this).wrap(function(){
+					if($(this).is(".bq"))
+					{
+						 return '';
+					}
+					if($(this).is("#feedme-content img"))
+					{
+						return '';
+					}
+					$(this).addClass("lazyload");
+					$(this).attr('data-original',$(this).attr("src"));
+					this.onerror=function(){$(this).attr('src','/IMG/loading.gif');};
+					$(this).after('<span class="imageinfo">'+ $(this).attr("alt") +'</span>');
+		 });
+	});
+}
 function show_site_runtime(bdate) {
 	window.setTimeout("show_site_runtime('" + bdate + "')", 1000);
 	X = new Date(bdate);
@@ -67,8 +113,6 @@ function show_site_runtime(bdate) {
 	S = Math.floor(s);
 	site_runtime.innerHTML = D + "<span>天</span>" + H + "<span>小时</span>" + M + "<span>分</span>" + S + "<span>秒</span>"
 }
-
-
 
 //赞赏按钮
 function feedme_show() {
@@ -155,6 +199,3 @@ function show_slide_content(id) {
 		$("#Sliderbar-content-" + id).prev().find('i').css(rotate2);
 	}
 }
-
-console.info(" %c Powered by Hexo ", 'color:#fadfa3;background:#030307;padding:5px 0;');
-console.info(" %c made with ❤ by youranreus & Adkinsm ", 'color: #fadfa3; background: #030307; padding:5px 0;')

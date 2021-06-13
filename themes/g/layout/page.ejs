@@ -4,20 +4,13 @@
         <div id="page-content-article">
             <%- page.content %>
         </div>
-        <hr>
-        <p class="updateon"><%- __('zhgx') %> <%- date(page.updated) %> </p>
 
     </div>
 
 </div>
-
-<div id="comments">
-    <div class="comments-header">
-        <div id="comment-form">
-            <%- partial('_partial/comments') %>
-        </div>
-    </div>
+</div>
 </div>
 
-</div>
+<div id="m_toc" onclick="toc_toggle();">
+    <span><a><i class="i m_toc"></i></a></span>
 </div>
