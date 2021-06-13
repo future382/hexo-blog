@@ -68,9 +68,9 @@ Adkinsm，男，生活在山东一个小城。
 
 2021-04-17：开始改造自己的Hexo主题，首次使用Local Storage存储数据
 
-2021-04-21：[Hexo-Theme-NaNoAs](https://github.com/adkinsm2020/hexo-theme-nanoas/)上线，本站即为此主题
+2021-04-21：[Hexo-Theme-NaNoAs](https://github.com/adkinsm2020/hexo-theme-nanoas/) 上线
 
-
+2021-05-10：放弃 NanoAs 主题，使用[自己移植自 Typecho 的 G 主题](https://github.com/adkinsm2020/hexo-theme-g/)。
 
 当然，WordPress，剑鱼，网盘，都由于是php，全在转GitHub的时候扔了
 
