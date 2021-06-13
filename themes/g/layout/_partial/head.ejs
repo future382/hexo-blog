@@ -12,7 +12,14 @@
     <%- js('JS/prism.js') %>
     <%- js('/JS/jquery.fancybox.min.js') %>
     <%- css('CSS/GL.css') %>
-    <%- css('CSS/jquery.fancybox.min.css') %>
+    <%- css('CSS/jquery.fancybox.min.css') %>    <script src="//cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js"></script>
+    <script type="text/javascript">
+          new Waline({
+            el: "#waline",
+            serverURL: "<%= theme.waline.serverURL %>",
+            visitor: true
+          });
+    </script>
     <link href="<%- url_for('/CSS/prism.css') %>" rel="stylesheet">
     <meta name="description" content="<%= config.description %>">
     <meta name="keywords" content="<%= config.keywords %>">
