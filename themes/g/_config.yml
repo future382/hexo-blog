@@ -41,6 +41,8 @@ pages:
     link: "/about/"
   Links:
     link: "/links/"
+  Message:
+    link: "/message/"
 
 #---------------------------
 # Index
