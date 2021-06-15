@@ -1,6 +1,6 @@
 ---
 title: Message
-layout: page
+layout: post
 ---
 
 hello.
