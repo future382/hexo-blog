@@ -101,4 +101,4 @@ pagecate:
 # 由于我使用Waline，所以我决定最先支持Waline
 waline:
   enable: false
-  serverURL: ''
+  serverURL: 'https://talk-blog.vercel.app/'
