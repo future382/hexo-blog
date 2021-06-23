@@ -68,11 +68,19 @@ links:
       image: '/assets/images/favicon.png'
     }
     - {
-      title: 'Adkinsm BLOG',
-      intro: 'Adkinsm 博客',
-      link: 'https://blog.adkinsm.top/',
-      image: '/assets/images/favicon.png'
+      title: 'AxiomXS',
+      intro: '老友',
+      link: 'https://www.axiomxs.com/',
+      image: 'https://s3.ax1x.com/2021/02/07/ytIFWF.png'
     }
+    - {
+      title: '小丫头片子',
+      intro: '老有不老有的也不管了',
+      link: '//www.cnblogs.com/xytpz',
+      image: 'https://i.loli.net/2020/12/31/MDiPhGOCmzwHjsp.jpg'
+    }
+
+
 #---------------------------
 # 404
 #---------------------------
