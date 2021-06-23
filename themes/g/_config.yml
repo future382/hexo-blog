@@ -103,6 +103,19 @@ links:
       link: '//www.futurd.cn',
       image: 'https://cdn.jsdelivr.net/gh/FloppyDisk-FD/fdimg@master/images/Avatar.jpg'
     }
+    - {
+      title: 'Doge',
+      intro: '老有不老有的也不管了',
+      link: '//www.ltdoge.top',
+      image: ''
+    }
+    - {
+      title: '泰戈尔',
+      intro: '老有不老有的也不管了',
+      link: 'https://www.iftiger.com/',
+      image: 'https://ittiger.top/%E5%A4%B4%E5%83%8F.jpg'
+    }
+
 
 
 
