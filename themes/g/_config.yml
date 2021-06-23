@@ -89,7 +89,7 @@ links:
       title: 'JR BLOG',
       intro: '老有不老有的也不管了',
       link: '//blog.jrcloud.vip',
-      image: https://gitee.com/jrcloud/cdn/raw/master/d.jpg'
+      image: 'https://gitee.com/jrcloud/cdn/raw/master/d.jpg'
     }
     - {
       title: '团子',
