@@ -79,6 +79,33 @@ links:
       link: '//www.cnblogs.com/xytpz',
       image: 'https://i.loli.net/2020/12/31/MDiPhGOCmzwHjsp.jpg'
     }
+    - {
+      title: 'ivampiresp',
+      intro: '老有不老有的也不管了',
+      link: '//ivampiresp.com',
+      image: 'https://nwl.im/avatar'
+    }
+    - {
+      title: 'JR BLOG',
+      intro: '老有不老有的也不管了',
+      link: '//blog.jrcloud.vip',
+      image: https://gitee.com/jrcloud/cdn/raw/master/d.jpg'
+    }
+    - {
+      title: '团子',
+      intro: '老有不老有的也不管了',
+      link: '//www.mikuchan.top/',
+      image: 'https://blog-static.mikuchan.top/avatar.jpg?imageMogr2/thumbnail/!20p/format/webp/blur/1x0/quality/70/w/256/h/256'
+    }
+    - {
+      title: 'FUTURD',
+      intro: '老有不老有的也不管了',
+      link: '//www.futurd.cn',
+      image: 'https://cdn.jsdelivr.net/gh/FloppyDisk-FD/fdimg@master/images/Avatar.jpg'
+    }
+
+
+
 
 
 #---------------------------
