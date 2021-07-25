@@ -44,6 +44,8 @@ pages:
     link: "/about/"
   Links:
     link: "/links/"
+  Project:
+    link: "/open-source/"
 
 #---------------------------
 # Index
