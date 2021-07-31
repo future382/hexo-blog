@@ -49,6 +49,30 @@ Gitee所有项目均未 Archive，所以可能会优先更新 Gitee。
 
 [Gitee](https://gitee.com/adkinsm/Typora-Theme-Night-CodeLight)
 
+## AdonS
+
+> 模仿MacOSX的一个Electron项目。
+
+[GitHub](https://github.com/Adkinsm2020/AdonS)
+
+[Gitee](https://gitee.com/adkinsm/AdonS)
+
+## Android-Settings
+
+> 基于Electron和Mdui的安卓7.2设置应用模仿
+
+[GitHub](https://github.com/Adkinsm2020/Android-Settings)
+
+[Gitee](https://gitee.com/adkinsm/Android-Settings)
+
+## Atom-GitHub
+
+> 模仿VSCode的github dark主题的atom样式，写在styles.less中
+
+[GitHub](https://github.com/Adkinsm2020/atom-github)
+
+[Gitee](https://gitee.com/adkinsm/atom-github)
+
 # 不开源但免费开放的 Web 项目
 
 ## Hikude Start Tab
