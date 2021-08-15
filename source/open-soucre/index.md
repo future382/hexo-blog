@@ -75,6 +75,8 @@ Gitee所有项目均未 Archive，所以可能会优先更新 Gitee。
 
 ## Yue-gen
 
+> 一键生成基于yue.css的markdown转译版html
+
 [GitHub](https://github.com/Adkinsm2020/yue-gen)
 
 # 不开源但免费开放的 Web 项目
