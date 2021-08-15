@@ -73,6 +73,10 @@ Gitee所有项目均未 Archive，所以可能会优先更新 Gitee。
 
 [Gitee](https://gitee.com/adkinsm/atom-github)
 
+## Yue-gen
+
+[GitHub](https://github.com/Adkinsm2020/yue-gen)
+
 # 不开源但免费开放的 Web 项目
 
 ## Hikude Start Tab
