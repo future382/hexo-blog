@@ -6,10 +6,10 @@
 bgimg: /10_gettyimages-508748776_super_resized.jpg
 
 # 背景图的色调强度，使用原始图片请填 100%
-bgsat: 500%
+bgsat: 700%
 
-# 背景图的模糊度，不模糊请填 0
-bgblu: 20px
+# 背景图的模糊度，不模糊请填 0px
+bgblu: 25px
 
 # 用于header、footer的颜色
 hfcolor: '#26689e'
@@ -27,9 +27,6 @@ headerimg:
   enable: true
   link: /IMG/title.png
 
-hyiyan:
-  enable: true
-
 # Header & Footer的Nav链接
 pages:
   Home:
@@ -44,17 +41,6 @@ pages:
     link: "/about/"
   Links:
     link: "/links/"
-  Project:
-    link: "/open-soucre/"
-
-#---------------------------
-# Index
-#---------------------------
-
-# 首页文章排序
-  # 默认的"1"代表单行，为白色一行的样式来陈列文章。
-  # 也可以选择"2"，代表大图，蓝色的，抽取头图，适合文章图片较多的人士。(在文章Front-Matter里使用cover属性规定头图)
-indexpp: 2
 
 #---------------------------
 # Links
@@ -70,59 +56,11 @@ links:
       image: '/assets/images/favicon.png'
     }
     - {
-      title: 'AxiomXS',
-      intro: '老友',
-      link: 'https://www.axiomxs.com/',
-      image: 'https://s3.ax1x.com/2021/02/07/ytIFWF.png'
+      title: 'Adkinsm BLOG',
+      intro: 'Adkinsm 博客',
+      link: 'https://blog.adkinsm.top/',
+      image: '/assets/images/favicon.png'
     }
-    - {
-      title: '小丫头片子',
-      intro: '老有不老有的也不管了',
-      link: '//www.cnblogs.com/xytpz',
-      image: 'https://i.loli.net/2020/12/31/MDiPhGOCmzwHjsp.jpg'
-    }
-    - {
-      title: 'ivampiresp',
-      intro: '老有不老有的也不管了',
-      link: '//ivampiresp.com',
-      image: 'https://nwl.im/avatar'
-    }
-    - {
-      title: 'JR BLOG',
-      intro: '老有不老有的也不管了',
-      link: '//blog.jrcloud.vip',
-      image: 'https://gitee.com/jrcloud/cdn/raw/master/d.jpg'
-    }
-    - {
-      title: '团子',
-      intro: '老有不老有的也不管了',
-      link: '//www.mikuchan.top/',
-      image: 'https://blog-static.mikuchan.top/avatar.jpg?imageMogr2/thumbnail/!20p/format/webp/blur/1x0/quality/70/w/256/h/256'
-    }
-    - {
-      title: 'FUTURD',
-      intro: '老有不老有的也不管了',
-      link: '//www.futurd.cn',
-      image: 'https://cdn.jsdelivr.net/gh/FloppyDisk-FD/fdimg@master/images/Avatar.jpg'
-    }
-    - {
-      title: 'Doge',
-      intro: '老有不老有的也不管了',
-      link: '//www.ltdoge.top',
-      image: ''
-    }
-    - {
-      title: '泰戈尔',
-      intro: '老有不老有的也不管了',
-      link: 'https://www.iftiger.com/',
-      image: 'https://ittiger.top/%E5%A4%B4%E5%83%8F.jpg'
-    }
-
-
-
-
-
-
 #---------------------------
 # 404
 #---------------------------

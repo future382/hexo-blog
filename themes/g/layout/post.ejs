@@ -37,16 +37,18 @@
             </p>
         </div>
         <div id="post-lastEdit">
-            <p><%- __('zhgx') %> <%- date(page.updated) %></p>
+            <p><%- __('at') %> <%- date(page.updated) %> <%- __('zhgx') %></p>
         </div>
     </div>
 </div>
 
+<% if (page.comments) { %>
 <div id="comments">
         <div id="comment-form">
             <%- partial('_partial/comments') %>
         </div>
 </div>
+<% } %>
 
 <div id="m_toc" onclick="toc_toggle();">
     <span><a><i class="i m_toc"></i></a></span>
