@@ -41,6 +41,8 @@ pages:
     link: "/about/"
   Links:
     link: "/links/"
+  Project:
+    link: "/open-soucre/"
 
 hyiyan:
   enable: true
