@@ -39,8 +39,6 @@ pages:
     link: "/tags/"
   About:
     link: "/about/"
-  Links:
-    link: "/links/"
   Project:
     link: "/open-soucre/"
   Donate:
