@@ -79,6 +79,12 @@ Gitee所有项目均未 Archive，所以可能会优先更新 Gitee。
 
 [GitHub](https://github.com/Adkinsm2020/yue-gen)
 
+## Cnblogs-Theme-CnGth
+
+> 模仿 Ｇ　但又与 G 一点儿不一样的**博客园**主题
+
+[GitHub](https://github.com/Adkinsm2020/Cnblogs-Theme-CnGth)
+
 # 不开源但免费开放的 Web 项目
 
 ## Hikude Start Tab
