@@ -43,6 +43,8 @@ pages:
     link: "/links/"
   Project:
     link: "/open-soucre/"
+  Donate:
+    link: "https://d.adkimsm.asia/"
 
 hyiyan:
   enable: true
