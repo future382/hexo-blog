@@ -106,10 +106,10 @@ menu:
   home:
     path: /
     icon: icon-home-4-line
-  list:
-    - type: archives
-      path: /archives/
-      icon: icon-archive-line
+  custom:
+     title: Archives
+     path: /archives/
+     icon: icon-archive-line
 
 # archive
 archive:
