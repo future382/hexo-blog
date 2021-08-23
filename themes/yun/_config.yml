@@ -126,8 +126,8 @@ archive:
   last_word: 没有更多的黑历史了_(:з」∠)_
 
 wordcloud:
-  enable: false
-  height: 350
+  enable: true
+  height: 1000
 
 # You can set color for every tag or category.
 tags:
