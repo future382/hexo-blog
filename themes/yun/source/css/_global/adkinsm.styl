@@ -3,7 +3,7 @@
 	pointer-events: none;
 }
 #nprogress .bar {
-	background:  var(--color-success);
+	background: #85ce61;
 	position: fixed;
 	z-index: 1031;
 	top: 0;
@@ -23,6 +23,9 @@
 	transform: rotate(3deg) translate(0, -4px);
 }
 #nprogress .spinner {
+        border-radius: 8%;
+	-webkit-animation: nprogress-spinner 400ms linear infinite;
+	animation: nprogress-spinner 400ms linear infinite;
 	display: block;
 	position: fixed;
 	z-index: 1031;
