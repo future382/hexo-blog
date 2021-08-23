@@ -14,7 +14,7 @@ function isHome() {
 
 function initPjax() {
   new Pjax({
-    selectors: ["title", ".js-Pjax", "main", "aside", "div#banner"],
+    selectors: ["title", ".js-Pjax", "main", "aside"],
   });
 }
 
