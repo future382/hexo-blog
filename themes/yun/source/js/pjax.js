@@ -30,4 +30,4 @@ document.addEventListener("DOMContentLoaded", initPjax);
 document.addEventListener("DOMContentLoaded", isHome);
 document.addEventListener("pjax:success", onPjaxSuccess);
 document.addEventListener("pjax:send", () => {NProgress.start();});
-document.addEventListener("pjax:complete", () => {NProgress.done();});
+document.addEventListener("pjax:complete", () => {debugger;NProgress.done();});
