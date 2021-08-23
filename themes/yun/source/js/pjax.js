@@ -29,5 +29,5 @@ function onPjaxSuccess() {
 document.addEventListener("DOMContentLoaded", initPjax);
 document.addEventListener("DOMContentLoaded", isHome);
 document.addEventListener("pjax:success", onPjaxSuccess);
-document.addEventListener("pjax:send", () => {nprocess.start();});
-document.addEventListener("pjax:complete", () => {nprocess.done();});
+document.addEventListener("pjax:send", () => {NProgress.start();});
+document.addEventListener("pjax:complete", () => {NProgress.done();});
