@@ -456,7 +456,7 @@ wordcount:
 
 # search
 search:
-  modal: false
+  modal: true
   bg_image: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-0-blur-30px.jpg
   dark_bg_image: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/mountain-blur-30px.jpg
   placeholder: 想要搜些什么？
@@ -470,7 +470,7 @@ engine_search:
 
 # https://github.com/wzpan/hexo-generator-search
 local_search:
-  enable: false
+  enable: true
   src: /js/search/local-search.js
 
 # https://github.com/oncletom/hexo-algolia
