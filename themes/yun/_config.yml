@@ -69,10 +69,6 @@ codeblock:
 
 # Extra links
 pages:
- # - name: 我的小伙伴们
- #   url: /links/
- #   icon: icon-genderless-line
- #   color: dodgerblue
 
 # pages
 # -------
@@ -99,7 +95,7 @@ avatar:
   status:
     enable: false
     emoji: 😊
-    message: 永远相信美好的事情即将发生
+    message: Good Luck If You Lucky Too.
 
 # main menu navigation
 menu:
@@ -117,9 +113,9 @@ menu:
       path: /tags/
       icon: icon-price-tag-3-line
   custom:
-     title: Archives
-     path: /archives/
-     icon: icon-archive-line
+     title: OP
+     path: /open-soucre/
+     icon: ri-code-s-slash-line
 
 # archive
 archive:
@@ -227,7 +223,8 @@ js:
 
 # custom your assets in head
 head:
-  css:
+  css: 
+    - https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.min.css
   js:
     base:
     async:
