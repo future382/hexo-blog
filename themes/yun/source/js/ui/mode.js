@@ -109,7 +109,6 @@ function bindToggleButton() {
     window["toggle-mode-btn"].addEventListener("click", () => {
       const mode = toggleCustomDarkMode();
       applyCustomDarkModeSettings(mode);
-      toggleCodeblockCss(mode);
     });
   }
 }
@@ -117,7 +116,6 @@ function bindToggleButton() {
 applyCustomDarkModeSettings();
 
 const mode = getLS(darkModeStorageKey);
-toggleCodeblockCss(mode);
 
 document.addEventListener("DOMContentLoaded", bindToggleButton);
 document.addEventListener("pjax:success", bindToggleButton);
@@ -127,13 +125,9 @@ if (CONFIG.mode === "time") {
   const now = new Date();
   const hour = now.getHours();
   if (hour < 7 && hour >= 19) {
-    setTimeout(() => {
-      toggleCodeblockCss("dark");
-    }, 200);
     const mode = toggleCustomDarkMode();
     if (mode === "dark") {
       applyCustomDarkModeSettings(mode);
-      toggleCodeblockCss(mode);
     }
   }
 }
