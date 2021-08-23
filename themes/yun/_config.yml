@@ -48,17 +48,12 @@ social:
     link: /atom.xml # config.feed.path
     icon: icon-rss-line
     color: orange
-  - name: QQ 群 1050458482
-    # https://isux.tencent.com/wp-content/uploads/2016/05/20160512101222609.pdf
-    link: https://qm.qq.com/cgi-bin/qm/qr?k=kZJzggTTCf4SpvEQ8lXWoi5ZjhAx0ILZ&jump_from=webapi
-    icon: icon-qq-line
-    color: "#12B7F5"
   - name: GitHub
     link: https://github.com/Adkinsm2020
     icon: icon-github-line
     color: "#6e5494"
   - name: 哔哩哔哩
-    link: https://space.bilibili.com/1579790
+    link: https://space.bilibili.com/645466056
     icon: icon-bilibili-line
     color: "#FF8EB3"
   - name: E-Mail
@@ -325,12 +320,8 @@ reward:
   comment: I'm so cute. Please give me money.
   # url: https://github.com/YunYouJun/yunyoujun.github.io/issues/96
   methods:
-    - name: QQ 支付
-      path: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/donate/qqpay-qrcode.png
-      color: "#12B7F5"
-      icon: icon-qq-line
     - name: 微信支付
-      path: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/donate/wechatpay-qrcode.jpg
+      path: https://d.adkimsm.asia/%E6%8D%90%E8%B5%A0%E9%A1%B5%E9%9D%A2!_files/wx.png
       color: "#2DC100"
       icon: icon-wechat-pay-line
 
