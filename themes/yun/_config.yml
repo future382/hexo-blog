@@ -106,6 +106,7 @@ menu:
   home:
     path: /
     icon: icon-home-4-line
+  list:
   custom:
      title: Archives
      path: /archives/
