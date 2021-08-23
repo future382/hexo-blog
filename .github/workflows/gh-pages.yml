@@ -17,7 +17,8 @@ jobs:
           node-version: "14.x"
 
       - name: build
-      - run: npm run build
+        run: npm run build
+      - run: git clone -b dev https://github.com/YunYouJun/hexo-theme-yun.git themes/yun
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
