@@ -56,4 +56,4 @@ if is_page() || is_post()
 
 //- prism
 if config.prismjs && config.prismjs.enable
-  link(id="light-prism-css", rel="stylesheet", href=theme.vendors.prismjs.themes[theme.codeblock.prismjs.light])
+  link(id="light-prism-css", rel="stylesheet", href=url_for("/css/prism.css"))
