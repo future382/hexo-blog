@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "prebuild": "export HEXO_ALGOLIA_INDEXING_KEY=Search-Only API key && hexo algolia",
+    "prebuild": "export HEXO_ALGOLIA_INDEXING_KEY=34a88bc106f819292243076e2148a1be && hexo algolia",
     "build": "hexo generate",
     "clean": "hexo clean",
     "dev": "hexo server"
