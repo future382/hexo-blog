@@ -64,7 +64,7 @@ social:
 codeblock:
   copy_btn: true
   prismjs:
-    light: solarizedlight
+    light: okaidia
     dark: tomorrow
 
 # Extra links
