@@ -54,59 +54,18 @@ social:
     icon: icon-qq-line
     color: "#12B7F5"
   - name: GitHub
-    link: https://github.com/YunYouJun
+    link: https://github.com/Adkinsm2020
     icon: icon-github-line
     color: "#6e5494"
-  - name: 微博
-    link: https://weibo.com/jizhideyunyoujun
-    icon: icon-weibo-line
-    color: "#E6162D"
-  - name: 豆瓣
-    link: https://www.douban.com/people/yunyoujun/
-    icon: icon-douban-line
-    color: "#007722"
-  - name: 网易云音乐
-    link: https://music.163.com/#/user/home?id=247102977
-    icon: icon-netease-cloud-music-line
-    color: "#C20C0C"
-  - name: 知乎
-    link: https://www.zhihu.com/people/yunyoujun/
-    icon: icon-zhihu-line
-    color: "#0084FF"
   - name: 哔哩哔哩
     link: https://space.bilibili.com/1579790
     icon: icon-bilibili-line
     color: "#FF8EB3"
-  # - name: POPI
-  #   link: https://www.popiapp.cn/elpsycn
-  #   icon: icon-questionnaire-line
-  #   color: "#525252"
-  - name: 微信公众号
-    link: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/about/white-qrcode-and-search.jpg
-    icon: icon-wechat-2-line
-    color: "#1AAD19"
-  - name: Twitter
-    link: https://twitter.com/YunYouJun
-    icon: icon-twitter-line
-    color: "#1da1f2"
-  # - name: Telegram
-  #   link: https://t.me/YunYouJun
-  #   icon: icon-telegram-line
-  #   color: "#0088CC"
-  - name: Telegram Channel
-    link: https://t.me/elpsycn
-    # icon: icon-telegram-fill
-    icon: icon-telegram-line
-    color: "#0088CC"
   - name: E-Mail
-    link: mailto:me@yunyoujun.cn
+    link: mailto:master@adkimsm.asia
     icon: icon-mail-line
     color: "#8E71C1"
-  - name: Travelling
-    link: https://travellings.link
-    icon: icon-train-line
-    color: black
-
+    
 codeblock:
   copy_btn: true
   prismjs:
@@ -115,10 +74,10 @@ codeblock:
 
 # Extra links
 pages:
-  - name: 我的小伙伴们
-    url: /links/
-    icon: icon-genderless-line
-    color: dodgerblue
+ # - name: 我的小伙伴们
+ #   url: /links/
+ #   icon: icon-genderless-line
+ #   color: dodgerblue
 
 # pages
 # -------
@@ -135,7 +94,7 @@ girls:
 
 # Sidebar Avatar
 avatar:
-  enable: true
+  enable: false
   url: /yun.png
   # If true, the avatar would be dispalyed in circle.
   rounded: true
@@ -162,10 +121,6 @@ menu:
     - type: tags
       path: /tags/
       icon: icon-price-tag-3-line
-  custom:
-    title: 文档
-    path: https://yun.yunyoujun.cn
-    icon: icon-settings-line
 
 # archive
 archive:
@@ -259,7 +214,7 @@ lazyload:
 
 # pjax
 pjax:
-  enable: false
+  enable: true
   src: /js/pjax.js
 
 # stylesheets loaded in the <head>
@@ -299,7 +254,7 @@ vendors:
 # UI
 banner:
   enable: true
-  title: 云游君的小站
+  title: 小小部落阁
   src: /js/ui/banner.js
   border: true
   cloud:
@@ -337,7 +292,7 @@ fireworks:
 
 # https://github.com/qrohlf/trianglify
 trianglify:
-  enable: false
+  enable: true
   cell_size: 75
   width: 800
   height: 600
@@ -346,7 +301,7 @@ trianglify:
   opacity: 0.5
 
 cursor:
-  enable: false
+  enable: true
   default: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/pointer.cur
   pointer: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/link.cur
   text: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/text.cur
@@ -376,10 +331,6 @@ reward:
   comment: I'm so cute. Please give me money.
   # url: https://github.com/YunYouJun/yunyoujun.github.io/issues/96
   methods:
-    - name: 支付宝
-      path: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/donate/alipay-qrcode.jpg
-      color: "#00A3EE"
-      icon: icon-alipay-line
     - name: QQ 支付
       path: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/donate/qqpay-qrcode.png
       color: "#12B7F5"
@@ -388,11 +339,6 @@ reward:
       path: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/donate/wechatpay-qrcode.jpg
       color: "#2DC100"
       icon: icon-wechat-pay-line
-    # - name: paypal
-    #   link: https://paypal.com
-    #   path: https://www.paypalobjects.com/images/shared/paypal-logo-129x32.svg
-    #   color: "#2D70B5"
-    #   icon: icon-paypal-line
 
 # Creative Commons 4.0 International License.
 # https://creativecommons.org/licenses/
@@ -419,7 +365,7 @@ post_edit:
 # Footer Settings
 # ---------------
 footer:
-  since: 2019
+  since: 2020
 
   # Icon between year and copyright info.
   icon:
@@ -446,7 +392,7 @@ footer:
     enable: false
     prefix: 本博客已萌萌哒地运行
     suffix: (●'◡'●)
-    start_time: "2019-04-12T00:00:00"
+    start_time: "2020-07-17T06:30:05"
 
   # Display support
   # support:
@@ -518,7 +464,7 @@ wordcount:
 
 # search
 search:
-  modal: true
+  modal: false
   bg_image: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-0-blur-30px.jpg
   dark_bg_image: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/mountain-blur-30px.jpg
   # placeholder: 想要搜些什么？
