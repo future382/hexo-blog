@@ -280,10 +280,10 @@ fireworks:
   enable: true
   src: /js/ui/fireworks.js
   colors:
-    - "102, 167, 221"
-    - "62, 131, 225"
-    - "33, 78, 194"
-    # - '3, 28, 95'
+    - "255, 20, 97"
+    - "24, 255, 146"
+    - "90, 135, 255"
+    - '251, 243, 140'
     # - '0, 8, 55'
 
 # https://github.com/qrohlf/trianglify
