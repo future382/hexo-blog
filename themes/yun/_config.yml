@@ -64,7 +64,7 @@ social:
 codeblock:
   copy_btn: true
   prismjs:
-    light: coy
+    light: default
     dark: tomorrow
 
 # Extra links
