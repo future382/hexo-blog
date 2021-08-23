@@ -12,9 +12,8 @@ html(lang=config.language)
     meta(name='author' content=author)
     meta(name="copyright" content=copyright)
     !=meta_generator()
-// nprocess
-
-script(src="https://unpkg.com/nprogress@0.2.0/nprogress.js")
+    // nprocess
+    script(src="https://unpkg.com/nprogress@0.2.0/nprogress.js")
     - page_title(page)
     if page.title
       title=page.title + ' | ' + title
