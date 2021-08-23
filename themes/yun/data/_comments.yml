@@ -54,11 +54,11 @@ valine:
 
 # https://waline.js.org/
 waline:
-  enable: false
-  serverURL: # https://your-domain.vercel.app
+  enable: true
+  serverURL: https://talk-blog.vercel.app
   # visitor: false
   # display comment count
-  comment: false
+  comment: true
 
 # MiniValine
 # More info available at https://github.com/MiniValine/MiniValine
