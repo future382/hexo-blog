@@ -5,8 +5,6 @@ link(rel='icon', href=url_for(favicon))
 link(rel="mask-icon", href=url_for(favicon), color=theme.colors.primary)
 link(rel="alternate icon", href=url_for("/yun.ico"))
 
-link(rel="stylesheet", href="https://cdn.bootcdn.net/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css")
-
 //- not use cdn.pre in dev
 if process.env.NODE_ENV === 'development'
   - theme.cdn.pre = ''
