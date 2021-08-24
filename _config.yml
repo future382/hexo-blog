@@ -101,6 +101,8 @@ ignore:
 theme: yun
 
 search:
+  path: search.xml
+  field: all
   content: false
 
 # Deployment
