@@ -191,7 +191,7 @@ const localSearch = (path, searchId, contentId) => {
             ].map((element) => {
               return {
                 title: element.querySelector("title").textContent,
-                content: element.querySelector("title").textContent,
+                content: element.querySelector("content").textContent,
                 url: element.querySelector("url").textContent,
               };
             })
