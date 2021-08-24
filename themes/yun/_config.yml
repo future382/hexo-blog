@@ -85,15 +85,15 @@ girls:
 
 # Sidebar Avatar
 avatar:
-  enable: false
+  enable: true
   url: /Yun.png
   # If true, the avatar would be dispalyed in circle.
   rounded: true
   # The value of opacity should be choose from 0 to 1 to set the opacity of the avatar.
-  opacity: 1
-  mickey_mouse: false
+  opacity: 0.9
+  mickey_mouse: true
   status:
-    enable: false
+    enable: true
     emoji: 😊
     message: Good Luck If You Lucky Too.
 
