@@ -107,5 +107,7 @@ C程序设计 - 清华社
 
 2021-05-10：放弃 NanoAs 主题，使用[自己移植自 Typecho 的 G 主题](https://github.com/adkinsm2020/hexo-theme-g/)。
 
+2021-08-23：G这个坑，本以为会填，终究还是跳了。使用 Hexo-Theme-Yun
+
 当然，WordPress，剑鱼，网盘，都由于是php，全在转GitHub的时候扔了。
 
