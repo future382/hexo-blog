@@ -104,7 +104,7 @@ algolia:
   applicationID: 'PH5AVW5QQP'
   apiKey: '7d242884ac1e6f5d79e9dc482e3702d4'
   adminApiKey: 'ada87037fe65a3b4f7c94b719b5997a3'
-  indexName: 'Blog_Search'
+  indexName: 'blog_search'
   chunkSize: 5000
 
 # Deployment
