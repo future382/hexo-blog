@@ -470,12 +470,12 @@ engine_search:
 
 # https://github.com/wzpan/hexo-generator-search
 local_search:
-  enable: false
+  enable: true
   src: /js/search/local-search.js
 
 # https://github.com/oncletom/hexo-algolia
 algolia_search:
-  enable: true
+  enable: false
   src: /js/search/algolia-search.js
   hits:
     per_page: 8 # the number of search results per page
