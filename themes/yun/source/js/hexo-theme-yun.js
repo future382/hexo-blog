@@ -41,3 +41,10 @@ document.addEventListener("DOMContentLoaded", initPage);
          }, 2000);
      }
  });
+
+function imageInfo() {
+ document.querySelectorAll(".post-content.markdown-body img").forEach(img => {
+   img.onerror = function () {
+     img.src = "https://gitee.com/Adkinsm/cdn/raw/master/img//f98cf7929977e173beadf55d173a7b64.webp"
+ })
+}
