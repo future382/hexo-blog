@@ -318,9 +318,9 @@ scrollreveal:
 bg_image:
   enable: true
   url: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-0-blur-30px.jpg # recomend image related to your mode
-  dark: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/galaxy.jpg
-  # blur: 30px
-  opacity: 1
+  dark: https://gitee.com/Adkinsm/cdn/raw/master/img//galaxy.jpg
+  blur: 5px
+  opacity: 0.9
 
 # Reward (Donate)
 # If enable true, reward would be displayed in every posts and pages by default.
