@@ -17,7 +17,7 @@ colors:
 
 # Favicon
 # ---------------
-favicon: /yun.svg
+favicon: /logo.svg
 
 # ---------------------------------------------------------------
 # Sidebar Settings
@@ -90,7 +90,7 @@ girls:
 # Sidebar Avatar
 avatar:
   enable: true
-  url: /Yun.png
+  url: /logo.svg
   # If true, the avatar would be dispalyed in circle.
   rounded: true
   # The value of opacity should be choose from 0 to 1 to set the opacity of the avatar.
