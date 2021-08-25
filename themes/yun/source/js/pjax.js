@@ -5,11 +5,12 @@
  * (非 PJAX 已预渲染，无需判断)
  */
 function isHome() {
-  if (window.location.pathname === CONFIG.root) {
+  // Adkinsm：这里我想侧边栏随时随地都能启用/隐藏，So：
+  /* if (window.location.pathname === CONFIG.root) { */
     document.body.classList.add("is-home");
-  } else {
+ /* } else {
     document.body.classList.remove("is-home");
-  }
+  }*/
 }
 
 function initPjax() {
