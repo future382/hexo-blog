@@ -2,41 +2,16 @@
 title: Hello World
 ---
 
-!!! error 对个人英语能力的声明
-    这是 Hexo 自动生成的默认文章，并非个人撰写
+> 不知道为什么，Vercel 部署总会把这个的 Date 设置为今天，那就正好用这篇文章当作置顶吧。
 
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+## 访问本站的各位，你们好呀！
 
-## Quick Start
+这是我用 `Hexo` 框架和 `Hexo-Theme-Yun` 主题建立的小博客，日常基本没啥人，但只要有人来 ~~（：即便是蜘蛛~~ ，那也会令我非常高兴。
 
-### Create a new post
+左上角有侧边栏的按钮，右上角则是搜索 ~~（LocalSearch搜索，难看就凑合用着吧）~~。
 
-```bash
-$ hexo new "My New Post"
-```
+插件基本没有 ~~（`Hexo-Generate-Pug` 和 `Hexo-Generate-Stylus` 除外~~，都是主题的功能。
 
-More info: [Writing](https://hexo.io/docs/writing.html)
+主题基本没怎么改，跟官方看起来应该没啥区别。 ~~（：有就是我没更新~~
 
-### Run server
-
-```bash
-$ hexo server
-```
-
-More info: [Server](https://hexo.io/docs/server.html)
-
-### Generate static files
-
-```bash
-$ hexo generate
-```
-
-More info: [Generating](https://hexo.io/docs/generating.html)
-
-### Deploy to remote sites
-
-```bash
-$ hexo deploy
-```
-
-More info: [Deployment](https://hexo.io/docs/deployment.html)
+我在 [GitHub 上拥有一个账号](//github.com/Adkinsm2020)，有一大堆 ~~没用~~ 的开源仓库，总 star 应该不到 20 ~~如果你也有一个 GitHub 账号，欢迎给我 Star 哦！~~
