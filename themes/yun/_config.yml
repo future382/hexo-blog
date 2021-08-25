@@ -185,7 +185,7 @@ types:
 
 # post_card
 post_card:
-  opacity: 0.9
+  opacity: 0.7
 
 # link
 # -------
@@ -346,7 +346,7 @@ creative_commons:
   license: by-nc-sa
   language: deed.zh
   post: true
-  clipboard: false
+  clipboard: true
 
 # AddThis Share, See: https://www.addthis.com
 # Go to https://www.addthis.com/dashboard to customize your tools.
