@@ -22,7 +22,7 @@ html(lang=config.language)
     include ../_third-party/cdn.pug
     include head.pug
     block preconnect
-  body(class= is_home() ? 'is-home' : '')
+  body(class= is_home() ? 'is-home' : '',onselectstart="return false;",unselectable="on")
     //- background
     include background.pug
     .container
