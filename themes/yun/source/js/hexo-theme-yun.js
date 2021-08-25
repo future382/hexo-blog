@@ -43,9 +43,9 @@ document.addEventListener("DOMContentLoaded", initPage);
  });
 
 function imageInfo() {
- document.querySelectorAll(".post-content.markdown-body img").forEach(img => {
-   img.onerror = function () {
-     img.src = "https://gitee.com/Adkinsm/cdn/raw/master/img//f98cf7929977e173beadf55d173a7b64.webp"
-   }
- })
+  let myNodeList = document.querySelectorAll(".post-content.markdown-body img");
+  for (var i = 0; i < myNodeList.length; ++i) {
+    var item = myNodeList[i];
+    item.src = "https://gitee.com/Adkinsm/cdn/raw/master/img//f98cf7929977e173beadf55d173a7b64.webp"
+  }
 }
