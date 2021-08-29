@@ -50,3 +50,5 @@ function imageInfo() {
   }
 }
 imageInfo()
+
+Fancybox.bind('#content #post article .post-content.markdown-body img')
