@@ -229,8 +229,10 @@ js:
 head:
   css: 
     - https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.min.css
+    - https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css
   js:
     base:
+      - https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js
     async:
     defer:
 
