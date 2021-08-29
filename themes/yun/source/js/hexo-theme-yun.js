@@ -41,14 +41,3 @@ document.addEventListener("DOMContentLoaded", initPage);
          }, 2000);
      }
  });
-
-function imageInfo() {
-  let myNodeList = document.querySelectorAll(".post-content.markdown-body img");
-  for (var i = 0; i < myNodeList.length; ++i) {
-    var item = myNodeList[i];
-    item.src = "https://gitee.com/Adkinsm/cdn/raw/master/img//f98cf7929977e173beadf55d173a7b64.webp"
-  }
-}
-imageInfo()
-
-Fancybox.bind('#content #post article .post-content.markdown-body img')
