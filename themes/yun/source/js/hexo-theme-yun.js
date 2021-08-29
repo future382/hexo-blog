@@ -49,3 +49,4 @@ function imageInfo() {
     item.src = "https://gitee.com/Adkinsm/cdn/raw/master/img//f98cf7929977e173beadf55d173a7b64.webp"
   }
 }
+imageInfo()
