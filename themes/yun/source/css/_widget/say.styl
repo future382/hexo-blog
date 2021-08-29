@@ -19,9 +19,15 @@
   }
 }
 
+html[data-user-color-scheme="light"] #say,
+html[data-user-color-scheme="dark"] #say {
+  transition: all .5s cubic-bezier(0.1, 2.1, 0, -1.19);
+ }
+
+
 html[data-user-color-scheme="light"] #say:hover {
-background: linear-gradient(130deg, #000, #30302c, #c7c7c7)
-    color: #e6e6e6
+    background: linear-gradient(130deg, #000, #30302c, #c7c7c7);
+    color: #e6e6e6;
 }
 
 html[data-user-color-scheme="dark"] #say:hover {
