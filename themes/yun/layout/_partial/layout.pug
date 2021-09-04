@@ -43,15 +43,15 @@ html(lang=config.language)
                 document.querySelectorAll('.markdown-body p img')
               ).filter(img => img.width > 20);
 
-            if(imgs.indexOf(e.target) === -1) {
-              return;
-            }
-            if(!e.target.gallery) {
-              e.target.gallery = window.lightGallery(e.target.parentNode);
-            }
-           e.target.gallery.openGallery(0);
-          });
-      </script>
+              if(imgs.indexOf(e.target) === -1) {
+                 return;
+              }
+              if(!e.target.gallery) {
+                e.target.gallery = window.lightGallery(e.target.parentNode);
+              }
+              e.target.gallery.openGallery(0);
+            });
+          </script>
       include footer.pug
       //- widget
       include ../_widget/index.pug
