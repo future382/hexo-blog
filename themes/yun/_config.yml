@@ -411,8 +411,8 @@ post_meta:
 
 # notice pin board
 notice:
-  enable: false
-  content: Thanks for watching my blog.
+  enable: true
+  content: 博客有任何问题，请刷新
 
 # third party
 # ----------------
@@ -420,7 +420,7 @@ notice:
 # say something
 # https://say.elpsy.cn
 say:
-  enable: true
+  enable: false
   # api: https://say.elpsy.cn/sentences.json
   # /data/sentences.json
   api: https://cdn.jsdelivr.net/gh/ElpsyCN/say@gh-pages/sentences.json
@@ -506,9 +506,9 @@ google_tagmanager:
 # Show number of visitors of each article.
 # You can visit https://www.leancloud.cn to get AppID and AppKey.
 leancloud_visitors:
-  enable: false
-  app_id: # <your app id>
-  app_key: # <your app key>
+  enable: true
+  app_id: npWrRilszoRQ1jN8PrUGcxrp-MdYXbMMI
+  app_key: ukSJvKf32KJNQgWSrGxD9GTj
   # Required for apps from CN region
   server_url: # <your server url>
 
@@ -516,13 +516,13 @@ leancloud_visitors:
 # math fomula
 # https://katex.org/
 katex:
-  copy_tex: true
+  copy_tex: false
   global: false
 
 # plugins
 aplayer:
   global: false
-  meting: true
+  meting: false
   # https://github.com/metowolf/MetingJS/tree/v1.2#option
   widget:
     enable: false
@@ -542,7 +542,7 @@ aplayer:
         url: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/audio/star-timer.mp3
         cover: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-0.jpg
     meting:
-      enable: true
+      enable: false
       id: 308168565
       server: netease
       type: playlist
@@ -556,7 +556,7 @@ mourn:
 
 # SEO
 # https://ziyuan.baidu.com/linksubmit/index
-baidu_push: false
+baidu_push: true
 
 # custom (You can use variables.)
 custom:
