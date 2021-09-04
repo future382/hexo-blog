@@ -38,7 +38,7 @@ html(lang=config.language)
       link(rel="stylesheet", href="https://cdn.jsdelivr.net/npm/lightgallery@2.1.5/css/lightgallery-bundle.css")
       script(src="https://cdn.jsdelivr.net/npm/lightgallery@2.1.5/lightgallery.umd.min.js")
       <script>
-        document.addEventListener('click', e => {
+        document.addEventListener('click', function(e) {
           const imgs = [].slice.call(
             document.querySelectorAll('.markdown-body p img')
         ).filter(img => img.width > 20);
@@ -51,7 +51,7 @@ html(lang=config.language)
         }
        e.target.gallery.openGallery(0);
        });
-       </script>
+      </script>
       include footer.pug
       //- widget
       include ../_widget/index.pug
