@@ -31,5 +31,5 @@ function onPjaxSuccess() {
 document.addEventListener("DOMContentLoaded", initPjax);
 document.addEventListener("DOMContentLoaded", isHome);
 document.addEventListener("pjax:success", onPjaxSuccess);
-document.addEventListener("pjax:send", () => {NProgress.start();});
-document.addEventListener("pjax:complete", () => {NProgress.done();});
+document.addEventListener("pjax:send", () => {NProgress.start();document.querySelector('main').classList.add("fadeout");});
+document.addEventListener("pjax:complete", () => {NProgress.done();document.querySelector('main').classList.add("fadein");});
