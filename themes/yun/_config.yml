@@ -256,7 +256,7 @@ banner:
   enable: true
   title: 小小部落阁
   src: /js/ui/banner.js
-  border: true
+  border: false
   cloud:
     enable: true
     color: "white"
