@@ -243,6 +243,7 @@ cdn:
     # github-markdown-css: https://cdn.jsdelivr.net/npm/github-markdown-css@4.0.0/github-markdown.css
   js:
     base:
+      medium-zoom: https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js
     async:
       iconfont: //at.alicdn.com/t/font_1140697_dxory92pb0h.js
     defer:
