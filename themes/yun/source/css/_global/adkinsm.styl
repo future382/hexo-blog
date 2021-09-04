@@ -52,13 +52,13 @@ mark {
   animation: FadeOut 1.2s
 }
 
-/* - 图片放大 */
-[ks-image=active]{
+
+[ks-image=active] {
     cursor: pointer;
     cursor: zoom-in;
 }
 
-.ks-image{
+.ks-image {
     top: 0;
     left: 0;
     right: 0;
@@ -69,13 +69,15 @@ mark {
     animation: fade-in .3s both;
     -webkit-animation: fade-in .3s both;
 }
-.ks-image.loading{ cursor: wait }
-.ks-image.remove:before{
+.ks-image.loading {
+    cursor: wait;
+}
+.ks-image.remove:before {
     animation: fade-off .3s both;
     -webkit-animation: fade-off .3s both;
 }
 
-.ks-image:before{
+.ks-image:before {
     top: 0;
     left: 0;
     right: 0;
@@ -85,7 +87,7 @@ mark {
     background: rgba(0, 0, 0, .6);
 }
 
-.ks-image .ks-prev, .ks-image .ks-next{
+.ks-image .ks-prev, .ks-image .ks-next {
     top: 0;
     bottom: 0;
     width: 10%;
@@ -96,24 +98,24 @@ mark {
     position: absolute;
     transition: opacity .3s, transform .3s;
 }
-.ks-image .ks-prev:hover{ transform: translateX(-.5em) }
-.ks-image .ks-next:hover{ transform: translateX(.5em)  }
+.ks-image .ks-prev:hover { transform: translateX(-.5em) }
+.ks-image .ks-next:hover { transform: translateX(.5em)  }
 
-.ks-image .ks-prev{
+.ks-image .ks-prev {
     left: 0;
     background: center/60% no-repeat url(data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMTAyNCAxMDI0IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjkpIj48cGF0aCBkPSJNMzI0LjIxMTUxNyA1MTEuODA1NjMxIDc4Ny44ODk1OTQgNzMuMDgyNTgzYzE2LjE5NDIyLTE2LjYzMDM2NSAxNi4xOTQyMi00My45NzQ3MDQgMC02MC42MDUwNjgtMTYuMTk0MjItMTYuNjMwMzY1LTQyLjQ5NTYwNy0xNi42MzAzNjUtNTguNjEzOTc2IDBMMjM1Ljc1MDExMyA0NzkuMzYwMzAyYy04LjY0NzAzMSA4Ljk2OTM5OC0xMi4zNDQ3NzUgMjAuOTM0OTE3LTExLjcxOTAwMyAzMi40NDUzMjktMC42NDQ3MzUgMTEuOTA4NjMgMy4wNzE5NzIgMjMuODc0MTQ5IDExLjcxOTAwMyAzMi44MjQ1ODVsNDkzLjUwNjU0MiA0NjYuODgyNzg4YzE2LjExODM2OSAxNi42NDkzMjcgNDIuNDM4NzE4IDE2LjY0OTMyNyA1OC42MTM5NzYgMCAxNi4xOTQyMi0xNy4wODU0NzEgMTYuMTk0MjItNDMuOTc0NzA0IDAtNjAuNjA1MDY4TDMyNC4yMTE1MTcgNTExLjgwNTYzMSI+PC9wYXRoPjwvc3ZnPg==);
 }
-.ks-image .ks-next{
+.ks-image .ks-next {
     right: 0;
     background: center/60% no-repeat url(data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAwIDIwMCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC45KSI+PHBhdGggZD0iTTEzNi43LDEwMGwtOTAuNiw4NS44Yy0zLjIsMy4yLTMuMiw4LjUsMCwxMS44YzMuMiwzLjMsOC4zLDMuMywxMS40LDBsOTYuNC05MS4yYzEuNy0xLjcsMi40LTQuMSwyLjMtNi40YzAuMS0yLjItMC42LTQuNi0yLjMtNi4zTDU3LjYsMi40Yy0zLjEtMy4yLTguMy0zLjItMTEuNCwwcy0zLjIsOC42LDAsMTEuOEwxMzYuNywxMDAiLz48L3N2Zz4NCg==);
 }
 
-.ks-image .ended{
+.ks-image .ended {
     opacity: .5;
     cursor: no-drop;
 }
 
-.ks-image .ks-ball{
+.ks-image .ks-ball {
     top: 1em;
     right: 1em;
     width: 2em;
@@ -128,12 +130,12 @@ mark {
     animation: rotate .5s linear infinite paused;
     -webkit-animation: rotate .5s linear infinite paused;
 }
-.ks-image.loading .ks-ball{
+.ks-image.loading .ks-ball {
     opacity: 1;
     animation-play-state: running;
 }
 
-.ks-image img{
+.ks-image img {
     top: 0;
     left: 0;
     right: 0;
@@ -147,9 +149,9 @@ mark {
     animation: fade-small-large .3s backwards;
     -webkit-animation: fade-small-large .3s backwards;
 }
-.ks-image.remove img, .ks-image.remove .ks-prev, .ks-image.remove .ks-next{
+.ks-image.remove img, .ks-image.remove .ks-prev, .ks-image.remove .ks-next {
     animation: fade-large-small .3s both;
     -webkit-animation: fade-large-small .3s both;
 }
 
-.ks-image img[src$=".jpg"]{ box-shadow: 0 5px 15px rgba(0, 0, 0, .5) }
+.ks-image img[src$=".jpg"] { box-shadow: 0 5px 15px rgba(0, 0, 0, .5) }
