@@ -556,7 +556,7 @@ mourn:
 
 # SEO
 # https://ziyuan.baidu.com/linksubmit/index
-baidu_push: true
+baidu_push: false
 
 # custom (You can use variables.)
 custom:
