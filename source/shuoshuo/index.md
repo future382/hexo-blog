@@ -10,3 +10,7 @@ new Artitalk({
     appKey: 'PC9ViplJuVjtV6w5Jqdbxz1k' // Your LeanCloud appKey
 })
 </script>
+<style>
+    .artitalk_avatar.gallery-group-img {
+    display: none;}
+</style>
