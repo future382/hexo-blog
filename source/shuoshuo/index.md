@@ -13,4 +13,7 @@ new Artitalk({
 <style>
     .artitalk_avatar.gallery-group-img {
     display: none;}
+    #artitalk_main .cbp_tmtimeline .cbp_tmlabel {
+    background-color: #f6f6f6 !important
+    }
 </style>
