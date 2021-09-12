@@ -2,6 +2,7 @@
 title: "说说"
 date: 2021-09-12
 ---
+<div class="js-Pjax">
 <script type="text/javascript" src="https://unpkg.com/artitalk"></script>
 <div id="artitalk_main"></div>
 <script>
@@ -17,3 +18,4 @@ new Artitalk({
     background-color: #2a2a2a !important;
     }
 </style>
+</div>
