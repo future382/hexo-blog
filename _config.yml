@@ -101,9 +101,6 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: yun
 
-netlify_cms:
-  config_file: netlify.yaml
-
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
