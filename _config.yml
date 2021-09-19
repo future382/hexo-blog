@@ -101,6 +101,11 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: yun
 
+admin:
+  username: Adkinsm
+  password_hash: $2a$10$qHm.ZHtcJ/S1hl5eAs3Ddu1r./q2O9fO7w.Z91KHD.mDup1l/dsx.
+  secret: adkinsm-blog-thanks-admin-do-not-use-add
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
