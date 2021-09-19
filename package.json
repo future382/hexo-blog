@@ -31,7 +31,6 @@
     "inferno": "^7.4.6",
     "inferno-create-element": "^7.4.6",
     "hexo-generator-search": "^2.4.3",
-    "hexo-admin": "^2.3.0"
-    
+    "hexo-admin-yf": "1.0.0"
   }
 }
