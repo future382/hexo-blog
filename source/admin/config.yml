@@ -1,6 +1,6 @@
 backend:
   name: git-gateway # https://github.com/netlify/netlify-cms
-  branch: main # 要更新的分支(可选；默认为主分支)
+  branch: master # 要更新的分支(可选；默认为主分支)
 
 # This line should *not* be indented
 publish_mode: editorial_workflow
@@ -9,8 +9,8 @@ publish_mode: editorial_workflow
 media_folder: "source/images/uploads" # 媒体文件将存储在图片/上载下的Repo中。
 public_folder: "/images/uploads" # 上传的媒体的src属性将以/images/uploads开头。
 
-site_url: https://www.myql.xyz # 网站网址
-display_url: https://www.myql.xyz # 显示网址
+site_url: https://net.adkimsm.asia # 网站网址
+display_url: https://net.adkimsm.asia # 显示网址
 
 locale: "zh_Hans" # 语言环境 https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-locales/src
 
