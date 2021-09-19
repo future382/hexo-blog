@@ -7,9 +7,6 @@
     "clean": "hexo clean",
     "dev": "hexo server"
   },
-  "hexo": {
-    "version": "5.2.0"
-  },
   "dependencies": {
     "bulma-stylus": "^0.8.0",
     "hexo": "3.7.0",
