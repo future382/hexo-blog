@@ -13,7 +13,6 @@
   "dependencies": {
     "bulma-stylus": "^0.8.0",
     "hexo": "^5.0.0",
-    "hexo-admin-yf": "^1.0.0",
     "hexo-admonition": "^1.0.0",
     "hexo-component-inferno": "^0.10.3",
     "hexo-deployer-git": "^3.0.0",
