@@ -16,7 +16,7 @@ Adkinsm，男，生活在山东一个小城。
 
 滑稽教！
 
-![滑稽](https://pic2.zhimg.com/80/v2-8f668c5cff9ee0fa0c626e3d0b89fa61_720w.jpg "滑稽")
+![滑稽](https://pic2.zhimg.com/80/v2-8f668c5cff9ee0fa0c626e3d0b89fa61_720w.jpg)
 
 ### “我”的设备
 
