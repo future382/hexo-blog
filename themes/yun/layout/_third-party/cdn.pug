@@ -24,12 +24,12 @@ if theme.scrollreveal.enable
   script.
     document.addEventListener("DOMContentLoaded", () => {
       !{JSON.stringify(theme.scrollreveal.targets)}.forEach((target)=> {
-        ScrollReveal().reveal(target);
+        ScrollReveal().reveal(target, { reset: true });
       })
     });
     document.addEventListener("pjax:success", () => {
       !{JSON.stringify(theme.scrollreveal.targets)}.forEach((target)=> {
-        ScrollReveal().reveal(target);
+        ScrollReveal().reveal(target, { reset: true });
       })
     });
 
