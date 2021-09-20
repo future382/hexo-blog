@@ -316,8 +316,11 @@ smoothScroll: true
 scrollreveal:
   enable: true
   targets:
-    - .post-card
+    - .hty-card__actions.post-card__actions
+    - .post-card-content.text-center
+    - .post-card-header
     - .post-content img
+    - .post-content p
 
 bg_image:
   enable: true
