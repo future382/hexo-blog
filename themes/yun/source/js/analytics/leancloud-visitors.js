@@ -108,4 +108,4 @@ function initLeancloudVisitors() {
 }
 
 document.addEventListener("DOMContentLoaded", initLeancloudVisitors);
-document.addEventListener("pjax:complete", initLeancloudVisitors);
+document.addEventListener("pjax:success", initLeancloudVisitors);
