@@ -12,7 +12,7 @@ public_folder: "/images/uploads" # 上传的媒体的src属性将以/images/uplo
 site_url: https://net.adkimsm.asia # 网站网址
 display_url: https://net.adkimsm.asia # 显示网址
 
-locale: "zh_Hans" # 语言环境 https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-locales/src
+locale: "en" # 语言环境 https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-locales/src
 
 collections:      # https://www.netlifycms.org/docs/configuration-options/#collections
   - name: "posts" # 在路由中使用，例如：/admin/collections/blog。
