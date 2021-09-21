@@ -7,17 +7,9 @@
       span#busuanzi_value_site_uv
   if theme.busuanzi.site_pv
     if theme.busuanzi.site_uv
-      //- 
-        span.footer-separator |
-        span#busuanzi_container_site_pv(title=__('footer.total_views'))!=theme.busuanzi.site_pv_header
-        span
-          +icon(theme.busuanzi.site_pv_icon, 14)
-        span#busuanzi_value_site_pv
-     - var leancloud_visitor = theme.leancloud_visitors && theme.leancloud_visitors.enable
-     if leancloud_visitor
-        span.leancloud_visitors(id=url_for(post.path), data-flag-title="Adkinsm BLOG - Home")
-           span.post-meta-divider='-'
-           span.post-meta-item-icon(title=__('post.views'))
-             +icon(theme.busuanzi.page_pv_icon)
-             |  
-             span.leancloud-visitors-count
+      span.leancloud_visitors(id=url_for(post.path), data-flag-title="Adkinsm BLOG - Home")
+         span.post-meta-divider='-'
+         span.post-meta-item-icon(title=__('post.views'))
+           +icon(theme.busuanzi.page_pv_icon)
+           |  
+           span.leancloud-visitors-count
