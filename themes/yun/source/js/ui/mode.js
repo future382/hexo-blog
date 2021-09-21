@@ -132,7 +132,7 @@ if (CONFIG.mode === "time") {
     if (mode === "dark") {
       applyCustomDarkModeSettings(mode);
       toggleCodeblockCss(mode);
-      document.querySelector('.v[data-class="v"] .vpanel').style.background = "#2a2a2a !important";
+      document.querySelector('.v[data-class="v"] .vpanel').cssText = "background: #2a2a2a;"
     }
   }
 }
