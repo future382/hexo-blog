@@ -84,11 +84,11 @@ function initLeancloudVisitors() {
         body: JSON.stringify(data),
       });
     };
-     if (CONFIG.page.isPost) {
-      addCount(Counter);
-    } else if (document.querySelectorAll(".post-title-link").length >= 1) {
-      showTime(Counter);
-    }
+     if (CONFIG.page.isPost || CONFIG.page.isHome) {
+       addCount(Counter);
+     } else if (document.querySelectorAll(".post-title-link").length >= 1) {
+       showTime(Counter);
+     }
   }
 
   const api_server =
