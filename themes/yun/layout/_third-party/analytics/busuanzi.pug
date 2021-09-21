@@ -13,10 +13,8 @@
         span
           +icon(theme.busuanzi.site_pv_icon, 14)
         span#busuanzi_value_site_pv
-        - var leancloud_visitor = theme.leancloud_visitors && theme.leancloud_visitors.enable
-     - var valine_visitor = is_post() && theme.valine.enable && theme.valine.visitor
-     - var waline_visitor = is_post() && theme.waline.enable && theme.waline.visitor
-     if leancloud_visitor || valine_visitor || waline_visitor
+     - var leancloud_visitor = theme.leancloud_visitors && theme.leancloud_visitors.enable
+     if leancloud_visitor
         span.leancloud_visitors(id=url_for(post.path), data-flag-title="Adkinsm BLOG - Home")
            span.post-meta-divider='-'
            span.post-meta-item-icon(title=__('post.views'))
