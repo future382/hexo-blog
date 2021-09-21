@@ -134,5 +134,8 @@ if (CONFIG.mode === "time") {
       toggleCodeblockCss(mode);
       document.querySelector('.v[data-class="v"] .vpanel').setAttribute("style","background: #2a2a2a")
     }
+    if (mode === "light") {
+      document.querySelector('.v[data-class="v"] .vpanel').setAttribute("style","")
+    }
   }
 }
