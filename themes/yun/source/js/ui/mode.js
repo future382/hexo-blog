@@ -57,7 +57,7 @@ const applyCustomDarkModeSettings = (mode) => {
   } else if (validColorModeKeys[currentSetting]) {
     rootElement.setAttribute(rootElementDarkModeAttributeName, currentSetting);
   } else {
-    // resetRootDarkModeAttributeAndLS();
+    resetRootDarkModeAttributeAndLS();
   }
 };
 
