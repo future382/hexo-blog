@@ -86,6 +86,25 @@ function initLeancloudVisitors() {
     };
     if (CONFIG.page.isPost) {
       addCount(Counter);
+    } else if (CONFIG.page.isHome) {
+      
+      fetch(`${api_server}/1.1/classes/Counter`, {
+        "post"
+        headers: {
+          "X-LC-Id": app_id,
+          "X-LC-Key": app_key,
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ "Adkinsm BLOG", "/", time: 1 }),
+      })
+        .then((response) => response.json())
+          .then(() => {
+          leancloudSelector("#busuanzi .leancloud_visitors").innerText += 1;
+        })
+         .catch((error) => {
+              console.error("Failed to create", error);
+            });
+  
     } else if (document.querySelectorAll(".post-title-link").length >= 1) {
       showTime(Counter);
     }
