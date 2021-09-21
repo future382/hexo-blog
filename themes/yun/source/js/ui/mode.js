@@ -53,11 +53,11 @@ const applyCustomDarkModeSettings = (mode) => {
   const currentSetting = mode || getLS(darkModeStorageKey);
 
   if (currentSetting === getModeFromCSSMediaQuery()) {
-    resetRootDarkModeAttributeAndLS();
+    // resetRootDarkModeAttributeAndLS();
   } else if (validColorModeKeys[currentSetting]) {
     rootElement.setAttribute(rootElementDarkModeAttributeName, currentSetting);
   } else {
-    resetRootDarkModeAttributeAndLS();
+    // resetRootDarkModeAttributeAndLS();
   }
 };
 
