@@ -53,7 +53,7 @@ const applyCustomDarkModeSettings = (mode) => {
   const currentSetting = mode || getLS(darkModeStorageKey);
 
   if (currentSetting === getModeFromCSSMediaQuery()) {
-    // resetRootDarkModeAttributeAndLS();
+    resetRootDarkModeAttributeAndLS();
   } else if (validColorModeKeys[currentSetting]) {
     rootElement.setAttribute(rootElementDarkModeAttributeName, currentSetting);
   } else {
@@ -133,8 +133,7 @@ if (CONFIG.mode === "time") {
       applyCustomDarkModeSettings(mode);
       toggleCodeblockCss(mode);
       document.querySelector('.v[data-class="v"] .vpanel').setAttribute("style","background: #2a2a2a")
-    }
-    if (mode === "light") {
+    } else {
       document.querySelector('.v[data-class="v"] .vpanel').setAttribute("style","")
     }
   }
