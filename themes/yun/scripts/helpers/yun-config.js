@@ -11,7 +11,8 @@ hexo.extend.helper.register("yun_config", function() {
     mode: theme.mode,
     copycode: theme.codeblock.copy_btn,
     page: {
-      isPost: "true"
+      isPost: this.is_post(),
+      isHome: this.is_home()
     },
     i18n: {
       placeholder: theme.search.placeholder || __("search.placeholder"),
