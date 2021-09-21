@@ -11,7 +11,11 @@ hexo.extend.helper.register("yun_config", function() {
     mode: theme.mode,
     copycode: theme.codeblock.copy_btn,
     page: {
-      isPost: this.is_post(),
+      if (this.is_home()) {
+         isPost: "true",
+      } else {
+         isPost: this.is_post(),
+      }
     },
     i18n: {
       placeholder: theme.search.placeholder || __("search.placeholder"),
