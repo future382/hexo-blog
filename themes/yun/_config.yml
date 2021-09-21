@@ -418,7 +418,7 @@ post_meta:
 
 # notice pin board
 notice:
-  enable: true
+  enable: false
   content: 博客有任何问题，请刷新
 
 # third party
