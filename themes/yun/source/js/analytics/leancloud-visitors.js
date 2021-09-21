@@ -84,7 +84,6 @@ function initLeancloudVisitors() {
         body: JSON.stringify(data),
       });
     };
-    document.querySelector("#busuanzi .leancloud-visitors-count") += 1;
     if (CONFIG.page.isPost) {
       addCount(Counter);
     } else if (document.querySelectorAll(".post-title-link").length >= 1) {
