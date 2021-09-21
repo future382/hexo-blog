@@ -89,7 +89,7 @@ function initLeancloudVisitors() {
     } else if (CONFIG.page.isHome) {
       
       fetch(`${api_server}/1.1/classes/Counter`, {
-        "post"
+        "post",
         headers: {
           "X-LC-Id": app_id,
           "X-LC-Key": app_key,
