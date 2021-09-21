@@ -87,7 +87,7 @@ function initLeancloudVisitors() {
     //if (CONFIG.page.isPost) {
       addCount(Counter);
     //} else if (document.querySelectorAll(".post-title-link").length >= 1) {
-    //  showTime(Counter);
+      showTime(Counter);
     //}
   }
 
