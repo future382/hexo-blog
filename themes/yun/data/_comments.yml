@@ -56,7 +56,7 @@ valine:
 waline:
   enable: true
   serverURL: https://talk-blog.vercel.app
-  # visitor: false
+  visitor: true
   # display comment count
   comment: true
 
