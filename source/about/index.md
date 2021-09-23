@@ -114,6 +114,8 @@ C程序设计 - 清华社
 
 2021-08-23：G这个坑，本以为会填，终究还是跳了。使用 Hexo-Theme-Yun
 
-2021-09-19:  不再使用 Vercel ，改用 etlify
+2021-09-19:  不再使用 Vercel ，改用 netlify
+
+2021-09-22: 好呐，最终又回来了，Vercel ！
 
 当然，WordPress，剑鱼，网盘，都由于是php，全在转GitHub的时候扔了。
