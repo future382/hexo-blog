@@ -77,6 +77,10 @@ pages:
     url: /shuoshuo/
     icon: ri-bubble-chart-line
     color: dodgerblue
+  - name: Admin
+    url: https://damp-unit-6057.adkinsm.workers.dev/
+    icon: ri-user-settings-line
+    color: dodgerblue
    
 # pages
 # -------
