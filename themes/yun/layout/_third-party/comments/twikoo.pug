@@ -1,9 +1,8 @@
-.js-Pjax
-  #tcomment
-  script(src=theme.vendors.twikoo)
-  - var twikooConfig = JSON.stringify(theme.twikoo)
-  script(defer="defer").
-    window.twikooConfig = !{twikooConfig}
-    twikooConfig.el = '#tcomment'
-    document.addEventListener("pjax:success", twikoo.init(twikooConfig));
-    document.addEventListener("DOMContentLoaded", twikoo.init(twikooConfig));
+#tcomment
+script(src=theme.vendors.twikoo)
+- var twikooConfig = JSON.stringify(theme.twikoo)
+script(defer="defer").
+  window.twikooConfig = !{twikooConfig}
+  twikooConfig.el = '#tcomment'
+  document.addEventListener("pjax:success", twikoo.init(twikooConfig));
+  document.addEventListener("DOMContentLoaded", twikoo.init(twikooConfig));
