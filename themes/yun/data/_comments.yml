@@ -3,6 +3,7 @@ comment:
   enable: true
   icon: icon-chat-3-line
   tips:
+    - Hello,堀苟
   #candidates:
   #  - waline
   #  - twikoo
