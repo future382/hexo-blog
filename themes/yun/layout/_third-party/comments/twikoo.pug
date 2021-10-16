@@ -6,3 +6,4 @@ script(defer="defer").
   twikooConfig.el = '#tcomment'
   twikoo.init(twikooConfig)
   document.addEventListener("pjax:success", twikoo.init(twikooConfig));
+  document.addEventListener("DOMContentLoaded", twikoo.init(twikooConfig));
