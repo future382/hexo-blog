@@ -3,7 +3,6 @@ comment:
   enable: true
   icon: icon-chat-3-line
   tips:
-    - <h3 style="text-align:left !important;"># Comment</h3>
   #candidates:
   #  - waline
   #  - twikoo
