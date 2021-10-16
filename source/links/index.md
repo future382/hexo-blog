@@ -42,12 +42,6 @@ links:
     blog: 泰戈尔のBlog
     desc: 智慧成就科技，科技改变生活。
     color: "#0078e7" # 代表色
-  - url: https://huajidashu.com/
-    avatar: https://cdn.jsdelivr.net/gh/chenbanghui/PicUploader@master/passage/IMG_4477.JPG
-    name: 宇宙最酷晖晖子
-    blog: 宇宙最酷晖晖子
-    desc: 热爱摇滚热爱生活
-    color: "#0078e7" # 代表色
 placeholder: 还没想好说些什么 # 默认对友链的描述
 tip: 友链加载中～如失败请刷新重试～
 ---
