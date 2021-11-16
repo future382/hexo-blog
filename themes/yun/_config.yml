@@ -37,7 +37,7 @@ toc:
   list_number: false
   max_depth: 6
   min_depth: 1
-  # placeholder: 很遗憾，咱没写啥目录
+  placeholder: 很遗憾，咱没写啥目录
   collapse: true
 
 # Social Links.
@@ -57,7 +57,7 @@ social:
     icon: icon-bilibili-line
     color: "#FF8EB3"
   - name: E-Mail
-    link: mailto:master@adkimsm.asia
+    link: mailto:adkinsm@mails.fun
     icon: icon-mail-line
     color: "#8E71C1"
     
@@ -323,8 +323,6 @@ scrollreveal:
     - .hty-card__actions.post-card__actions
     - .post-card-content.text-center
     - .post-card-header
-    - .post-content img
-    - .post-content p
 
 bg_image:
   enable: true
@@ -387,7 +385,7 @@ footer:
 
   powered:
     # Hexo link (Powered by Hexo).
-    enable: true
+    enable: false
 
   # Beian icp information for Chinese users. In China, every legal website should have a beian icp in website footer.
   # https://beian.miit.gov.cn/
@@ -396,7 +394,7 @@ footer:
     # icp: 苏ICP备xxxxxxxx号
 
   live_time:
-    enable: false
+    enable: true
     prefix: 本博客已萌萌哒地运行
     suffix: (●'◡'●)
     start_time: "2020-07-17T06:30:05"
@@ -454,7 +452,7 @@ say:
 # Show Views / Visitors of the website / page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi
 busuanzi:
-  enable: true
+  enable: false
   site_uv: false
   site_uv_icon: icon-user-line
   site_pv: true
