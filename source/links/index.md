@@ -42,6 +42,12 @@ links:
     blog: 泰戈尔のBlog
     desc: 智慧成就科技，科技改变生活。
     color: "#0078e7" # 代表色
+  - url: https://69asgard.github.io
+    avatar: https://69asgard.github.io/images/avatar.gif
+    name: 太渊
+    blog: Asgard
+    desc: 太渊-Asgard
+    color: "#0078e7" # 代表色
 placeholder: 还没想好说些什么 # 默认对友链的描述
 tip: 友链加载中～如失败请刷新重试～
 ---
