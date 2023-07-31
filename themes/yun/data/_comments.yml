@@ -55,7 +55,7 @@ valine:
 # https://waline.js.org/
 waline:
   enable: true
-  serverURL: https://comment.uway.ml
+  serverURL: http://comment.blog.adki.site
   # visitor: true
   # display comment count
   comment: false
