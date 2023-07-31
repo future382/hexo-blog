@@ -57,7 +57,7 @@ social:
     icon: icon-bilibili-line
     color: "#FF8EB3"
   - name: E-Mail
-    link: mailto:adkinsm@mails.fun
+    link: mailto:adkinsm9277@gmail.com
     icon: icon-mail-line
     color: "#8E71C1"
     
@@ -72,14 +72,6 @@ pages:
   - name: 我的小伙伴们
     url: /links/
     icon: icon-genderless-line
-    color: dodgerblue
-  - name: 小说说
-    url: /shuoshuo/
-    icon: ri-bubble-chart-line
-    color: dodgerblue
-  - name: Admin
-    url: https://damp-unit-6057.adkinsm.workers.dev/
-    icon: ri-user-settings-line
     color: dodgerblue
    
 # pages
@@ -236,7 +228,6 @@ js:
 # custom your assets in head
 head:
   css: 
-    - https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.min.css
   js:
     base:
     async:
