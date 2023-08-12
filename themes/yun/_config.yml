@@ -316,9 +316,9 @@ scrollreveal:
 
 bg_image:
   enable: true
-  url: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-0-blur-30px.jpg # recomend image related to your mode
-  dark: https://cdn.yunyoujun.cn/img/bg/galaxy.jpg
-  blur: 5px
+  url: https://cdn.jsdelivr.net/gh/jrotty/LoginDesigner/LoginDesigner/img/white.jpg # recomend image related to your mode
+  dark: https://cdn.jsdelivr.net/gh/YunYouJun/cdn@master/img/bg/girl-in-water-tank.webp
+  blur: 9px
   opacity: 0.9
 
 # Reward (Donate)
