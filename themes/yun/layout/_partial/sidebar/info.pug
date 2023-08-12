@@ -4,9 +4,7 @@
       img(width=96, loading='lazy', src=is_url(theme.avatar.url) ? theme.avatar.url : url_for(theme.cdn.pre + theme.avatar.url), alt=config.author)
       if theme.avatar.status.enable
         span.site-author-status(title=theme.avatar.status.message)=theme.avatar.status.emoji
-    .site-author-name(style="opacity: 0")
-      a
-        | #{config.author}
+    .site-author-name
     a.site-name(href=url_for('about/'))
       | #{config.title}
     sub.site-subtitle!=config.subtitle
