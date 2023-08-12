@@ -316,7 +316,7 @@ scrollreveal:
 
 bg_image:
   enable: true
-  url: https://cdn.jsdelivr.net/gh/jrotty/LoginDesigner/LoginDesigner/img/white.jpg # recomend image related to your mode
+  url: https://cdn.jsdelivr.net/gh/adkinsmpage/ImgBed/img/24aea7a7f9b6478698b6f8cdd6a016e0%20(1).jpg # recomend image related to your mode
   dark: https://cdn.jsdelivr.net/gh/YunYouJun/cdn@master/img/bg/girl-in-water-tank.webp
   blur: 9px
   opacity: 0.9
