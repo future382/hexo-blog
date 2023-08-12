@@ -59,6 +59,7 @@ waline:
   # visitor: true
   # display comment count
   comment: false
+  dark: 'html[data-user-color-scheme="dark"]'
 
 # MiniValine
 # More info available at https://github.com/MiniValine/MiniValine
