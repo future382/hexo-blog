@@ -13,9 +13,7 @@ sharp s2 是夏普 2017 年发布的手机，全面屏确实很吸引人，但�
  
 sharp s2 解 bl 还是用[光卡](https://forum.xda-developers.com/t/guide-how-to-use-hctsw-care-uu4-to-unlock-the-bootloader.4600037/)更好，更简单，还能自动 root，很不错，但是没有 twrp（在解 bl 时出现的那个似乎是直接 boot 的）。
 
-教程在链接中都有，就不多说了，dan'yao
-
-用光卡解 bl 之前
+教程在链接中都有，就不多说了，但要注意用光卡解 bl 之前，必须要[提交你手机的 PSN](https://hikaricalyx.com/request-bootloader-unlock/)，否则会提示订单未找到。
 
 ## 刷 lineageos 17.1
 
