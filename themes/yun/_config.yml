@@ -1,6 +1,6 @@
 # ---------------
 # mode: light | dark | auto | time
-mode: time
+mode: auto
 
 # Theme color for customize
 # Notice: color value must in double quotes: "#000000"
@@ -49,7 +49,7 @@ social:
     icon: icon-rss-line
     color: orange
   - name: GitHub
-    link: https://github.com/Adkinsm2020
+    link: https://github.com/Adkimsm
     icon: icon-github-line
     color: "#6e5494"
   - name: 哔哩哔哩
@@ -404,7 +404,7 @@ footer:
 post_meta:
   item_text: true
   created_at: true
-  updated_at: true
+  updated_at: false
   categories: true
   tags: true
 
@@ -548,10 +548,9 @@ aplayer:
 
 # special
 mourn:
-  enable: false
+  enable: true
   days:
-    - "4-4"
-    - "9-18"
+    - "6-4"
 
 # SEO
 # https://ziyuan.baidu.com/linksubmit/index
