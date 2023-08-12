@@ -1,6 +1,14 @@
 ---
 title: Magisk root 后的玩法
 date: 2023-08-12
+tags: 
+  - Sharp S2
+  - Root
+  - Magisk
+  - Lineage OS
+  - Android
+categories:
+  - 安利
 ---
 
 最近把手里的一台 sharp s2 给刷了 lineageos 17，也上了 magisk。

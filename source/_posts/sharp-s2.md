@@ -1,6 +1,14 @@
 ---
 title: Sharp S2 玩机
 date: "2023-08-08"
+tags: 
+  - Sharp S2
+  - Root
+  - Magisk
+  - Lineage OS
+  - Android
+categories:
+  - 教程
 ---
 
 Sharp s2 这部手机跟死了一样。

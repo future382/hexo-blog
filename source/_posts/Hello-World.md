@@ -1,6 +1,10 @@
 ---
 title: Hello, World
 date: 2022-10-03 14:58:22
+tags: 
+  - Hello Wrold
+categories:
+  - 项目
 ---
 
 最近消失了很长时间，做了很多事情，例如改用 Arch Linux ，自写博客系统，结识大佬等。

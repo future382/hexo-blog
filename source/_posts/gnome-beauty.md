@@ -1,6 +1,12 @@
 ---
 title: GNOME 美化
 date: 2022-10-03 14:58:22
+tags: 
+  - GNOME
+  - Linux
+  - 美化
+categories:
+  - 安利
 ---
 
 由于美化不完整，这里不放图了。
