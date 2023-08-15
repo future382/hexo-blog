@@ -28,7 +28,6 @@
     "hexo-renderer-marked": "^3.0.0",
     "hexo-renderer-pug": "^2.0.0",
     "hexo-renderer-stylus": "^2.0.1",
-    "hexo-renderer-scss": "^1.2.0",
     "hexo-server": "^2.0.0",
     "inferno": "^7.4.6",
     "inferno-create-element": "^7.4.6"
