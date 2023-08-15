@@ -97,6 +97,42 @@ exclude:
 ignore:
 
 # Extensions
+jsonContent:
+  meta: true
+  drafts: false
+  file: content.json
+  pages:
+    title: false
+    slug: false
+    date: false
+    updated: false
+    comments: false
+    path: false
+    link: false
+    permalink: false
+    excerpt: false
+    keywords: false
+    text: false
+    raw: false
+    content: false
+    author: false
+  posts:
+    title: true
+    slug: true
+    date: true
+    updated: false
+    comments: false
+    path: true
+    permalink: false
+    excerpt: true
+    keywords: false
+    text: false
+    raw: false
+    content: false
+    author: false
+    categories: true
+    tags: true
+
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: yun
