@@ -54,7 +54,7 @@ social:
     color: "#6e5494"
   - name: 知乎
     link: https://www.zhihu.com/people/zuo-yi-zhi-nu-li-de-tu-zi-96/
-    icon: i-ri-zhihu-line
+    icon: icon-zhihu-line
     color: "#0084FF"
   - name: E-Mail
     link: mailto:me@yunji.blog
@@ -62,15 +62,15 @@ social:
     color: "#8E71C1"
   - name: Twitter
     link: https://twitter.com/yunji5362
-    icon: i-ri-twitter-line',
+    icon: icon-twitter-line
     color: "#1da1f2"
   - name: Telegram Channel
     link: https://t.me/yunji_daily
-    icon: i-ri-telegram-line
+    icon: icon-telegram-line
     color: #0088CC
   - name: Travelling
     link: https://www.travellings.cn/go.html
-    icon: i-ri-train-line
+    icon: icon-train-line
     color: var(--va-c-text)
       
 codeblock:
@@ -92,12 +92,12 @@ pages:
 anonymous_image: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/avatar/none.jpg
 
 albums:
-  enable: false
+  enable: true
   icon: icon-gallery-line
   src: /js/gallery-decrypt.js
 
 girls:
-  enable: false
+  enable: true
 
 # Sidebar Avatar
 avatar:
