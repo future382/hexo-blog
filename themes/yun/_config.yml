@@ -49,18 +49,30 @@ social:
     icon: icon-rss-line
     color: orange
   - name: GitHub
-    link: https://github.com/Adkimsm
+    link: https://github.com/future382
     icon: icon-github-line
     color: "#6e5494"
-  - name: 哔哩哔哩
-    link: https://space.bilibili.com/645466056
-    icon: icon-bilibili-line
-    color: "#FF8EB3"
+  - name: 知乎
+    link: https://www.zhihu.com/people/zuo-yi-zhi-nu-li-de-tu-zi-96/
+    icon: i-ri-zhihu-line
+    color: "#0084FF"
   - name: E-Mail
-    link: mailto:adkinsm9277@gmail.com
+    link: mailto:me@yunji.blog
     icon: icon-mail-line
     color: "#8E71C1"
-    
+  - name: Twitter
+    link: https://twitter.com/yunji5362
+    icon: i-ri-twitter-line',
+    color: "#1da1f2"
+  - name: Telegram Channel
+    link: https://t.me/yunji_daily
+    icon: i-ri-telegram-line
+    color: #0088CC
+  - name: Travelling
+    link: https://www.travellings.cn/go.html
+    icon: i-ri-train-line
+    color: var(--va-c-text)
+      
 codeblock:
   copy_btn: true
   prismjs:
@@ -90,7 +102,7 @@ girls:
 # Sidebar Avatar
 avatar:
   enable: true
-  url: /logo.svg
+  url: https://s2.loli.net/2023/07/31/rJ4x98IqeFKaUgH.jpg
   # If true, the avatar would be dispalyed in circle.
   rounded: true
   # The value of opacity should be choose from 0 to 1 to set the opacity of the avatar.
@@ -117,8 +129,8 @@ menu:
       path: /tags/
       icon: icon-price-tag-3-line
   custom:
-     title: OP
-     path: /open-soucre/
+     title: About
+     path: /about/
      icon: ri-code-s-slash-line
 
 # archive
@@ -252,7 +264,7 @@ vendors:
 # UI
 banner:
   enable: true
-  title: 小小部落阁
+  title: 云之彼端
   src: /js/ui/banner.js
   border: false
   cloud:
@@ -554,7 +566,7 @@ mourn:
 
 # SEO
 # https://ziyuan.baidu.com/linksubmit/index
-baidu_push: false
+baidu_push: true
 
 # custom (You can use variables.)
 custom:
