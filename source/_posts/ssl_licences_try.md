@@ -1,6 +1,12 @@
 ---
 title: Let’s Encrypt | 通配符证书申请
 date: 2023-4-30
+tags: 
+    - 利器
+    - Web
+    - SSL/TLS
+categories: 云迹的小教程
+excerpt: SSL证书申请
 ---
 
 

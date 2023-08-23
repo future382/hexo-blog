@@ -1,6 +1,11 @@
 ---
 title: 简析图片无损放大工具	
 date: 2023-7-08
+excerpt: 站长必备
+tags: 
+    - 利器
+    - 图片压缩算法
+categories: 云迹的小工具
 ---
 
 

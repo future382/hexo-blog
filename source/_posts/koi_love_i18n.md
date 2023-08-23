@@ -1,9 +1,14 @@
 ---
 title: 恋爱二三事
 date: 2023-8-19
+categories: 云迹的小情感
+tags: 
+    - 情感
+    - English
+excerpt: 本文支持多语言
 ---
 
-::: zh-CN
+中文（Chinese）
 
 对我来说，我认为世界上最美的东西，可能不是某个现实存在的物质，而是一段情感。
 
@@ -19,9 +24,9 @@ date: 2023-8-19
 
 这之后，男孩也许还想着这名女孩，也可能会看到第一位男孩喜欢女孩子的历程。玻璃心的第二位男孩看到第一位男孩的勇敢会有什么样的想法吗？自我矛盾？逃避？麻木？迷茫？我不知道答案…… 但是，我知道，第二个男生可能就是我……
 
-:::
 
-::: en
+
+English
 
 From my point of view, I think the most beautiful thing in the world, it may be not a real thing, but an emotion.
 
@@ -37,4 +42,4 @@ In junior high school, the boy falls in love with a girl for some reason. It is 
 
 After that, the boy may still think about the girl, and he may also see the process of the first boy liking the girl. What will the second boy with the glass heart think when he sees the bravery of the first boy? Self-contradictory? escape? numbness? confused? I don't know the answer... However, I know that, the second boy may be me...
 
-::: 
+ 
