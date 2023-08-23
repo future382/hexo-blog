@@ -38,9 +38,9 @@ valine:
   #   - link
   pageSize: 10 # pagination size
   # lang: zh-CN
-  visitor: false
+  visitor: true
   highlight: true
-  recordIP: false
+  recordIP: true
   # serverURLs:
   # Emoji See: https://valine.js.org/emoji.html
   # emojiCDN: //i0.hdslb.com/bfs/emote/
@@ -55,7 +55,7 @@ valine:
 # https://waline.js.org/
 waline:
   enable: true
-  serverURL: https://comment.blog.adki.site
+  serverURL: https://waline.adkimsm.one
   # visitor: true
   # display comment count
   comment: false
