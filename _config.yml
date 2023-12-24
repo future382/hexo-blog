@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 云·迹
-subtitle: '云·迹の小站'
-description: ''
-keywords: Hexo,yunji,yunji5362,adki,blog,site,websites,网站
-author: 云迹
+title: Biltune
+subtitle: 'Biltune の小站'
+description: 'All at sea'
+keywords: Hexo,biltune,biltune147,blog,site,websites,网站
+author:Biltune
 language: zh-CN
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: https://yunji.blog/
+url: https://biltune.top/
 root: /
 permalink: post/:hash/
 permalink_defaults:
