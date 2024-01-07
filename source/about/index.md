@@ -30,12 +30,12 @@ updated: 2024-1-7T21:56:17.67+8:0
 
 ## 找到我
 
-* Email：[me@yunji.blog](https://yunji.netlify.app/mailto:me@yunji.blog)
+* Email：[me@biltune.top](mailto:me@biltune.top)
 * GitHub: [云·迹](https://github.com/Future382)（我的代码集中地，欢迎 PR，Follow，**Star** ～）（尽管没啥用）
 * Telegram Group：[小云实验室](https://t.me/yunlab)
 * Telegram Channel:[云迹的日常](https://t.me/yunji_daliy)
 * 知乎：[Mirra](https://www.zhihu.com/people/zuo-yi-zhi-nu-li-de-tu-zi-96)（随便看看，没有什么有趣的回答分享）
 * Twitter: [云·迹](https://twitter.com/yunji5362)（一些分享和正在进行的项目预告）
-* QQ：1274402757（注明来意，bot会不定期通过验证）
+* QQ：2725116709（注明来意，bot会不定期通过验证）
 * Instagram：[云·迹](https://www.instagram.com/yunji5362/)
 * RSS：[Feed](https://yunji.blog/atom.xml)(欢迎订阅，可以使用多种RSS阅读器，比如feedly)
