@@ -507,7 +507,7 @@ google_adsense:
 google_analytics:
   enable: true
   # GA4
-  id: G-P74VV965LY
+  id: G-5K811KL274
 
 # Google Tagmanager
 google_tagmanager:
