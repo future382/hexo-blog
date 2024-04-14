@@ -328,7 +328,7 @@ scrollreveal:
 
 bg_image:
   enable: true
-  url: https://s2.loli.net/2023/08/19/YnbeafGuNWgOpTI.jpg # recomend image related to your mode
+  url: https://yunji.blog/bg_light.jpeg # recomend image related to your mode
   dark: https://cdn.jsdelivr.net/gh/YunYouJun/cdn@master/img/bg/girl-in-water-tank.webp
   blur: 9px
   opacity: 0.9
