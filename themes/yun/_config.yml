@@ -102,7 +102,7 @@ girls:
 # Sidebar Avatar
 avatar:
   enable: true
-  url: https://s2.loli.net/2023/07/31/rJ4x98IqeFKaUgH.jpg
+  url: https://yunji.blog/icons.jpeg
   # If true, the avatar would be dispalyed in circle.
   rounded: true
   # The value of opacity should be choose from 0 to 1 to set the opacity of the avatar.
