@@ -1,13 +1,14 @@
 ---
-title: 恋爱二三事
+abbrlink: ''
+categories: []
 date: 2023-8-19
-categories: 云迹的小情感
-tags: 
-    - 情感
-    - English
 excerpt: 本文支持多语言
+tags:
+- 情感
+- English
+title: 恋爱二三事
+updated: '2024-05-26T11:46:51.911+08:00'
 ---
-
 中文（Chinese）
 
 对我来说，我认为世界上最美的东西，可能不是某个现实存在的物质，而是一段情感。
@@ -24,8 +25,6 @@ excerpt: 本文支持多语言
 
 这之后，男孩也许还想着这名女孩，也可能会看到第一位男孩喜欢女孩子的历程。玻璃心的第二位男孩看到第一位男孩的勇敢会有什么样的想法吗？自我矛盾？逃避？麻木？迷茫？我不知道答案…… 但是，我知道，第二个男生可能就是我……
 
-
-
 English
 
 From my point of view, I think the most beautiful thing in the world, it may be not a real thing, but an emotion.
@@ -41,5 +40,3 @@ Let me tell you another story: the protagonist of the story developed a timid an
 In junior high school, the boy falls in love with a girl for some reason. It is not the same table, nor is it primary school classmates, it may just be love at first sight. It is said that many people like this girl, and this girl has many choices. But the boy doesn't have too much communication with the woman, it is better to say that there was no communication, and they just know a little about each other, and the boy didn't know much about her. Once, the boy tries his best to tell his feelings, and she replies intermittently. Finally, the cruel reality hits the boy's heart. This is the inevitable ending, no need to ask more.
 
 After that, the boy may still think about the girl, and he may also see the process of the first boy liking the girl. What will the second boy with the glass heart think when he sees the bravery of the first boy? Self-contradictory? escape? numbness? confused? I don't know the answer... However, I know that, the second boy may be me...
-
- 
