@@ -55,7 +55,7 @@ valine:
 # https://waline.js.org/
 waline:
   enable: true
-  serverURL: https://waline.adkimsm.one
+  serverURL: https://waline.adkimsm.eu.org
   # visitor: true
   # display comment count
   comment: false
