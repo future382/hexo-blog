@@ -83,8 +83,8 @@ codeblock:
 pages:
   - name: 我的小伙伴们
     url: /links/
-    icon: icon-share-line
-    color: dodgerblue
+    icon: icon-link-unlink-line
+    color: "8E71C1"
   - name: 生物百科指北
     url: /biological-wiki
     icon: icon-external-link-line
@@ -135,7 +135,7 @@ menu:
   custom:
      title: About
      path: /about/
-     icon: icon-clipboard-line
+     icon: ri-code-s-slash-line
 
 # archive
 archive:
