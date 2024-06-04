@@ -87,7 +87,7 @@ pages:
     color: dodgerblue
   - name: 生物百科指北
     url: /biological-wiki
-    icon: icon-book-marked-fill-line
+    icon: icon-external-link-line
     color: dodgerblue
    
 # pages
