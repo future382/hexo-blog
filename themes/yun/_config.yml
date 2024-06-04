@@ -84,7 +84,7 @@ pages:
   - name: 我的小伙伴们
     url: /links/
     icon: icon-link-unlink-line
-    color: "8E71C1"
+    color: orange
   - name: 生物百科指北
     url: /biological-wiki
     icon: icon-external-link-line
