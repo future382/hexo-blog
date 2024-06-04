@@ -135,7 +135,7 @@ menu:
   custom:
      title: About
      path: /about/
-     icon: ri-code-s-slash-line
+     icon: icon-clipboard-line
 
 # archive
 archive:
