@@ -563,7 +563,7 @@ aplayer:
 mourn:
   enable: true
   days:
-    - "6-4"
+    - "4-4"
 
 # SEO
 # https://ziyuan.baidu.com/linksubmit/index
