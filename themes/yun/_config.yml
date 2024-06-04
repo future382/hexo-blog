@@ -83,11 +83,11 @@ codeblock:
 pages:
   - name: 我的小伙伴们
     url: /links/
-    icon: ri:link-unlink-m
+    icon: icon-link-line
     color: dodgerblue
   - name: 生物百科指北
     url: /biological-wiki
-    icon: ri:book-marked-fill
+    icon: icon-book-line
     color: dodgerblue
    
 # pages
